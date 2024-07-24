@@ -1,102 +1,557 @@
 [
     {
-        "symbol": "PDD",
-        "companyName": "拼多多",
-        "industry": "电子商务"
+        "symbol": "JMIA",
+        "companyName": "Jumia Technologies AG",
+        "industry": ""
     },
     {
-        "symbol": "COIN",
-        "companyName": "Coinbase",
-        "industry": "金融科技"
+        "symbol": "MBLY",
+        "companyName": "Mobileye Global Inc.",
+        "industry": ""
     },
     {
-        "symbol": "SONY",
-        "companyName": "索尼",
-        "industry": "消费电子"
+        "symbol": "PSTG",
+        "companyName": "Pure Storage Inc",
+        "industry": ""
     },
     {
-        "symbol": "SHOP",
-        "companyName": "Shopify",
-        "industry": "电子商务"
+        "symbol": "DELL",
+        "companyName": "戴尔",
+        "industry": ""
     },
     {
-        "symbol": "ARM",
-        "companyName": "Arm",
-        "industry": "半导体"
+        "symbol": "WDC",
+        "companyName": "西部数据",
+        "industry": ""
     },
     {
-        "symbol": "BABA",
-        "companyName": "阿里巴巴",
-        "industry": "电子商务"
+        "symbol": "AVGO",
+        "companyName": "博通",
+        "industry": ""
     },
     {
-        "symbol": "NVO",
-        "companyName": "Novo Nordisk",
-        "industry": "制药"
+        "symbol": "NKE",
+        "companyName": "耐克",
+        "industry": ""
+    },
+    {
+        "symbol": "COST",
+        "companyName": "好市多",
+        "industry": ""
+    },
+    {
+        "symbol": "NVDA",
+        "companyName": "英伟达",
+        "industry": ""
     },
     {
         "symbol": "SMCI",
-        "companyName": "Super Micro Computer",
-        "industry": "计算机硬件"
+        "companyName": "超微电脑",
+        "industry": ""
     },
     {
-        "symbol": "U",
-        "companyName": "Unity",
-        "industry": "软件"
+        "symbol": "HOOD",
+        "companyName": "Robinhood",
+        "industry": ""
+    },
+    {
+        "symbol": "APP",
+        "companyName": "AppLovin Corporation",
+        "industry": ""
+    },
+    {
+        "symbol": "ABNB",
+        "companyName": "爱彼迎",
+        "industry": ""
+    },
+    {
+        "symbol": "ARM",
+        "companyName": "ARM Holdings Ltd",
+        "industry": ""
+    },
+    {
+        "symbol": "MU",
+        "companyName": "美光科技",
+        "industry": ""
+    },
+    {
+        "symbol": "LLY",
+        "companyName": "礼来",
+        "industry": ""
+    },
+    {
+        "symbol": "QCOM",
+        "companyName": "高通",
+        "industry": ""
+    },
+    {
+        "symbol": "SMH",
+        "companyName": "半导体指数ETF-HOLDRs",
+        "industry": ""
+    },
+    {
+        "symbol": "SPY",
+        "companyName": "标普500ETF",
+        "industry": ""
+    },
+    {
+        "symbol": "QQQ",
+        "companyName": "纳指100ETF",
+        "industry": ""
+    },
+    {
+        "symbol": "AAPL",
+        "companyName": "苹果",
+        "industry": ""
+    },
+    {
+        "symbol": "AMZN",
+        "companyName": "亚马逊",
+        "industry": ""
+    },
+    {
+        "symbol": "TSLA",
+        "companyName": "特斯拉",
+        "industry": ""
+    },
+    {
+        "symbol": "META",
+        "companyName": "Meta Platforms",
+        "industry": ""
+    },
+    {
+        "symbol": "GOOGL",
+        "companyName": "谷歌A",
+        "industry": ""
+    },
+    {
+        "symbol": "MSFT",
+        "companyName": "微软",
+        "industry": ""
+    },
+    {
+        "symbol": "NET",
+        "companyName": "Cloudflare, Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "AXP",
+        "companyName": "美国运通",
+        "industry": ""
+    },
+    {
+        "symbol": "AMD",
+        "companyName": "美国超微公司",
+        "industry": ""
+    },
+    {
+        "symbol": "MSTR",
+        "companyName": "MicroStrategy Incorporated",
+        "industry": ""
+    },
+    {
+        "symbol": "MS",
+        "companyName": "摩根士丹利",
+        "industry": ""
+    },
+    {
+        "symbol": "SOXL",
+        "companyName": "三倍做多半导体ETF-Direxion Daily",
+        "industry": ""
+    },
+    {
+        "symbol": "SHOP",
+        "companyName": "Shopify Inc",
+        "industry": ""
+    },
+    {
+        "symbol": "BX",
+        "companyName": "黑石",
+        "industry": ""
+    },
+    {
+        "symbol": "DIS",
+        "companyName": "迪士尼",
+        "industry": ""
+    },
+    {
+        "symbol": "BA",
+        "companyName": "波音",
+        "industry": ""
+    },
+    {
+        "symbol": "TCEHY",
+        "companyName": "腾讯控股ADR",
+        "industry": ""
+    },
+    {
+        "symbol": "RMBS",
+        "companyName": "Rambus",
+        "industry": ""
+    },
+    {
+        "symbol": "SOXS",
+        "companyName": "三倍做空半导体ETF-Direxion Daily",
+        "industry": ""
+    },
+    {
+        "symbol": "INTC",
+        "companyName": "英特尔",
+        "industry": ""
+    },
+    {
+        "symbol": "ASML",
+        "companyName": "阿斯麦",
+        "industry": ""
     },
     {
         "symbol": "TSM",
         "companyName": "台积电",
-        "industry": "半导体"
+        "industry": ""
     },
     {
-        "symbol": "JD",
-        "companyName": "京东",
-        "industry": "电子商务"
+        "symbol": "LRCX",
+        "companyName": "拉姆研究",
+        "industry": ""
     },
     {
-        "symbol": "BZ",
-        "companyName": "BOSS 直聘",
-        "industry": "人力资源"
+        "symbol": "AMAT",
+        "companyName": "应用材料",
+        "industry": ""
     },
     {
-        "symbol": "NET",
-        "companyName": "Cloudflare",
-        "industry": "云计算"
+        "symbol": ".VIX",
+        "companyName": ".VIX",
+        "industry": ""
     },
     {
-        "symbol": "SQ",
-        "companyName": "Square",
-        "industry": "金融科技"
+        "symbol": "IWM",
+        "companyName": "罗素2000指数ETF",
+        "industry": ""
     },
     {
-        "symbol": "NIO",
-        "companyName": "蔚来",
-        "industry": "汽车"
+        "symbol": ".SPX",
+        "companyName": "标普500",
+        "industry": ""
     },
     {
-        "symbol": "LI",
-        "companyName": "理想汽车",
-        "industry": "汽车"
+        "symbol": "DIA",
+        "companyName": "道琼斯ETF",
+        "industry": ""
     },
     {
-        "symbol": "LKNCY",
-        "companyName": "Luckin Coffee",
-        "industry": "餐饮"
+        "symbol": "UVXY",
+        "companyName": "1.5倍做多波动率指数短期期货ETF-ProShares",
+        "industry": ""
     },
     {
-        "symbol": "BIDU",
-        "companyName": "百度",
-        "industry": "互联网"
+        "symbol": "XBI",
+        "companyName": "SPDR S&P Biotech ETF",
+        "industry": ""
     },
     {
-        "symbol": "XPEV",
-        "companyName": "小鹏汽车",
-        "industry": "汽车"
+        "symbol": "NUGT",
+        "companyName": "二倍做多黄金矿业指数ETF-Direxion",
+        "industry": ""
+    },
+    {
+        "symbol": "SLV",
+        "companyName": "白银ETF(iShares)",
+        "industry": ""
+    },
+    {
+        "symbol": "RSP",
+        "companyName": "平均加权指数ETF-Rydex S&P",
+        "industry": ""
+    },
+    {
+        "symbol": "BITO",
+        "companyName": "ProShares Bitcoin Strategy ETF ",
+        "industry": ""
+    },
+    {
+        "symbol": "ADBE",
+        "companyName": "Adobe",
+        "industry": ""
+    },
+    {
+        "symbol": "ARLO",
+        "companyName": "Arlo Technologies Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "TEAM",
+        "companyName": "Atlassian Corporation PLC",
+        "industry": ""
+    },
+    {
+        "symbol": "NTNX",
+        "companyName": "Nutanix Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "NOW",
+        "companyName": "ServiceNow",
+        "industry": ""
+    },
+    {
+        "symbol": "ZS",
+        "companyName": "Zscaler Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "RDDT",
+        "companyName": "Reddit",
+        "industry": ""
+    },
+    {
+        "symbol": "DDOG",
+        "companyName": "Datadog",
+        "industry": ""
+    },
+    {
+        "symbol": "SPOT",
+        "companyName": "Spotify Technology S.A.",
+        "industry": ""
+    },
+    {
+        "symbol": "MDB",
+        "companyName": "MongoDB Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "ISRG",
+        "companyName": "直觉外科公司",
+        "industry": ""
+    },
+    {
+        "symbol": "CRM",
+        "companyName": "赛富时",
+        "industry": ""
+    },
+    {
+        "symbol": "UPWK",
+        "companyName": "Upwork Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "PINS",
+        "companyName": "Pinterest, Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "INTU",
+        "companyName": "财捷",
+        "industry": ""
+    },
+    {
+        "symbol": "ADSK",
+        "companyName": "欧特克",
+        "industry": ""
+    },
+    {
+        "symbol": "AKAM",
+        "companyName": "阿克迈",
+        "industry": ""
+    },
+    {
+        "symbol": "SNAP",
+        "companyName": "Snap Inc",
+        "industry": ""
+    },
+    {
+        "symbol": "SNOW",
+        "companyName": "Snowflake",
+        "industry": ""
+    },
+    {
+        "symbol": "CYBR",
+        "companyName": "Cyber-Ark Software",
+        "industry": ""
+    },
+    {
+        "symbol": "PFSI",
+        "companyName": "PennyMac Financial Services, Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "AFRM",
+        "companyName": "Affirm Holdings, Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "XLF",
+        "companyName": "金融ETF",
+        "industry": ""
+    },
+    {
+        "symbol": "FAS",
+        "companyName": "金融指数ETF-Direxion三倍做多罗素金融股",
+        "industry": ""
+    },
+    {
+        "symbol": "GS",
+        "companyName": "高盛",
+        "industry": ""
+    },
+    {
+        "symbol": "JPM",
+        "companyName": "摩根大通",
+        "industry": ""
+    },
+    {
+        "symbol": "WFC",
+        "companyName": "富国银行",
+        "industry": ""
+    },
+    {
+        "symbol": "BAC",
+        "companyName": "美国银行",
+        "industry": ""
+    },
+    {
+        "symbol": "C",
+        "companyName": "花旗",
+        "industry": ""
+    },
+    {
+        "symbol": "HSBC",
+        "companyName": "汇丰",
+        "industry": ""
+    },
+    {
+        "symbol": "BLK",
+        "companyName": "贝莱德",
+        "industry": ""
+    },
+    {
+        "symbol": "AIG",
+        "companyName": "美国国际集团",
+        "industry": ""
+    },
+    {
+        "symbol": "MA",
+        "companyName": "万事达",
+        "industry": ""
+    },
+    {
+        "symbol": "V",
+        "companyName": "Visa",
+        "industry": ""
+    },
+    {
+        "symbol": "PYPL",
+        "companyName": "PayPal",
+        "industry": ""
+    },
+    {
+        "symbol": "BJ",
+        "companyName": "BJ批发俱乐部",
+        "industry": ""
+    },
+    {
+        "symbol": "EBAY",
+        "companyName": "eBay",
+        "industry": ""
+    },
+    {
+        "symbol": "KSS",
+        "companyName": "柯尔百货",
+        "industry": ""
+    },
+    {
+        "symbol": "TGT",
+        "companyName": "塔吉特",
+        "industry": ""
+    },
+    {
+        "symbol": "HD",
+        "companyName": "家得宝",
+        "industry": ""
+    },
+    {
+        "symbol": "BBY",
+        "companyName": "百思买",
+        "industry": ""
+    },
+    {
+        "symbol": "ANF",
+        "companyName": "爱芬奇",
+        "industry": ""
+    },
+    {
+        "symbol": "PZZA",
+        "companyName": "棒约翰",
+        "industry": ""
+    },
+    {
+        "symbol": "DASH",
+        "companyName": "DoorDash, Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "KO",
+        "companyName": "可口可乐",
+        "industry": ""
+    },
+    {
+        "symbol": "PEP",
+        "companyName": "百事可乐",
+        "industry": ""
+    },
+    {
+        "symbol": "BUD",
+        "companyName": "百威英博",
+        "industry": ""
+    },
+    {
+        "symbol": "SBUX",
+        "companyName": "星巴克",
+        "industry": ""
+    },
+    {
+        "symbol": "MNST",
+        "companyName": "怪物饮料",
+        "industry": ""
+    },
+    {
+        "symbol": "SHAK",
+        "companyName": "Shake Shack Inc",
+        "industry": ""
+    },
+    {
+        "symbol": "DPZ",
+        "companyName": "达美乐比萨",
+        "industry": ""
+    },
+    {
+        "symbol": "HSY",
+        "companyName": "好时",
+        "industry": ""
+    },
+    {
+        "symbol": "CELH",
+        "companyName": "Celsius Holdings, Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "VRT",
+        "companyName": "Vertiv Holdings LLC",
+        "industry": ""
     },
     {
         "symbol": "AI",
-        "companyName": "C3.ai",
-        "industry": "软件"
+        "companyName": "C3.ai, Inc.",
+        "industry": ""
+    },
+    {
+        "symbol": "WDAY",
+        "companyName": "Workday",
+        "industry": ""
+    },
+    {
+        "symbol": "NFLX",
+        "companyName": "奈飞",
+        "industry": ""
     }
 ]
