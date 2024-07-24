@@ -87,7 +87,7 @@ async function fetchEarningsData(date) {
 async function fetchEarningsCalendarData(date = today) {
     try {
         let beforeDays = 1;
-        let alfterDays = 61;
+        let alfterDays = 46;
         let newDate = date;
 
         // 将日期重置为 beforeDays 天前，默认重新获取前一天的数据
