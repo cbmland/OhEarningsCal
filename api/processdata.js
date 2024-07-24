@@ -1,8 +1,8 @@
 import { existsSync, readFileSync } from 'fs';
 
 // 重复次数
-const beforeDays = 30;
-const afterDays = 30;
+const beforeDays = 15;
+const afterDays = 46;
 const repeatTimes = beforeDays + afterDays;
 
 function sleep(ms) {
