@@ -2,24 +2,40 @@ import { createEvents } from 'ics';
 import { writeFileSync } from 'fs';
 import { processData } from './processdata.js';
 
+function simplifyNumber(marketValueStr) {
+    let number = parseFloat(marketValueStr.replace(/[$,]/g, "")); // 将字符串转换为数字并去除 $ 和逗号
+    
+    const suffixes = ["", "K", "M", "B", "T"]; // 数字后缀，例如 K 代表千，M 代表百万，B 代表十亿，T 代表万亿
+    const suffixNum = Math.floor(("" + number).length / 3); // 计算数字的数量级
+
+    let shortNumber = parseFloat((suffixNum !== 0 ? (number / Math.pow(1000, suffixNum)) : number).toPrecision(3));
+    if (shortNumber % 1 !== 0) {
+        shortNumber = shortNumber.toFixed(2);
+    }
+
+    return shortNumber + suffixes[suffixNum];
+}
+
 async function generateEarningsICSCalendar(date,list,filename) {
     try {
         
         console.log('Generating earnings calendar for', date);
         const earningsData = await processData(date,list); // 获取财报数据
 
+
         const events = earningsData.map(entry => {
             const dateParts = entry.date.split('-').map(Number);
             const start = [dateParts[0], dateParts[1], dateParts[2]];
             return {
-                title: `${entry.companyName} ${entry.time}发布财报`,
-                description: `财务季度：${entry.fiscalQuarterEnding}。\n代码：${entry.symbol}，公司：${entry.companyName}，行业: ${entry.industry}。\n预计每股收益: ${entry.epsForecast}，当前市值: ${entry.marketCap}。\n ~~~~~~~~~~~~ \n在股票 app 打开： stocks://?symbol=${entry.symbol} \n在富途查看：https://www.futunn.com/hk/stock/${entry.symbol}-US `,
+                title: `${entry.time} ${entry.symbol}(${entry.companyName})发布财报`,
+                description: `财务季度：${entry.fiscalQuarterEnding} \n公司：${entry.companyName} \n预计每股收益: ${entry.epsForecast}，当前市值: ${simplifyNumber(entry.marketCap)}。\n\n在股票App查看： stocks://?symbol=${entry.symbol} \n在富途查看：https://www.futunn.com/hk/stock/${entry.symbol}-US `,
                 start: start,
                 startInputType: 'utc', // 时区会有误差，但可以接受
                 status: 'CONFIRMED',
                 busyStatus: 'FREE',
                 alarms: [
-                    { action: 'display', description: 'Reminder', trigger: { hours: 2, minutes: 0, before: true } }
+                    { action: 'display', description: 'Reminder', trigger: { hours: 
+                        entry.time === '盘前' ?4:2, minutes: 0, before: true } }
                 ]
             };
         });
