@@ -6,24 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:Q_h2RsGB0EZhnCyOskpiQ
-SUMMARY: HD(家得宝)发布财报
-DTSTAMP:20240828T164645Z
-DTSTART;VALUE=DATE:20240813
-DESCRIPTION:财务季度：Jul/2024 \n公司：家得宝 \n预计每股收益: $4.54，当前市值: 0.34T。\n\n在股票App查看
-	： stocks://?symbol=HD \n在富途查看：https://www.futunn.com/hk/stock/HD-US 
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:h6UtuM2YEgAG_FczsR9Ke
+UID:G504BQf_N2lzVmVtKrKs6
 SUMMARY: CSCO(思科系统)发布财报
-DTSTAMP:20240828T164645Z
+DTSTAMP:20240829T044317Z
 DTSTART;VALUE=DATE:20240814
 DESCRIPTION:财务季度：Jul/2024 \n公司：思科系统 \n预计每股收益: $0.70，当前市值: 0.18T。\n\n在股票App查
 	看： stocks://?symbol=CSCO \n在富途查看：https://www.futunn.com/hk/stock/CSCO-US 
@@ -36,9 +21,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:M4Mpjuy_Sc6tzSF_Xlysj
+UID:TbA9htDWYKmuGcps7IPNh
 SUMMARY: WMT(沃尔玛)发布财报
-DTSTAMP:20240828T164645Z
+DTSTAMP:20240829T044317Z
 DTSTART;VALUE=DATE:20240815
 DESCRIPTION:财务季度：Jul/2024 \n公司：沃尔玛 \n预计每股收益: $0.65，当前市值: 0.59T。\n\n在股票App查看
 	： stocks://?symbol=WMT \n在富途查看：https://www.futunn.com/hk/stock/WMT-US 
@@ -51,9 +36,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:UxBIXS4J4J55IKl_L4TXi
+UID:riAfTji3b8ths0pIvICSb
 SUMMARY:盘后 CRM(赛富时)发布财报
-DTSTAMP:20240828T164645Z
+DTSTAMP:20240829T044317Z
 DTSTART;VALUE=DATE:20240828
 DESCRIPTION:财务季度：Jul/2024 \n公司：赛富时 \n预计每股收益: $1.73，当前市值: 0.26T。\n\n在股票App查看
 	： stocks://?symbol=CRM \n在富途查看：https://www.futunn.com/hk/stock/CRM-US 
@@ -66,9 +51,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:uuOyRCvvJKsK0s5PRkT5o
+UID:3TuHozUyK8RWuCznPk3mM
 SUMMARY: NKE(耐克)发布财报
-DTSTAMP:20240828T164645Z
+DTSTAMP:20240829T044317Z
 DTSTART;VALUE=DATE:20240926
 DESCRIPTION:财务季度：Aug/2024 \n公司：耐克 \n预计每股收益: $0.54，当前市值: 0.13T。\n\n在股票App查看：
 	 stocks://?symbol=NKE \n在富途查看：https://www.futunn.com/hk/stock/NKE-US 
@@ -81,9 +66,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2QgIihYDLgcjn7xn4PYv9
+UID:js41by3YDC6HmRZpwtGxW
 SUMMARY: WBA(沃尔格林博姿联合公司)发布财报
-DTSTAMP:20240828T164645Z
+DTSTAMP:20240829T044317Z
 DTSTART;VALUE=DATE:20241010
 DESCRIPTION:财务季度：Aug/2024 \n公司：沃尔格林博姿联合公司 \n预计每股收益: $0.36，当前市值: 8.96B。\n\n在
 	股票App查看： stocks://?symbol=WBA \n在富途查看：https://www.futunn.com/hk/stock/WBA-
@@ -97,9 +82,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:qKSsvXcsMg-2tc-wfMNo1
+UID:15HyfsqtczInSYm2nFstZ
 SUMMARY:盘前 JPM(摩根大通)发布财报
-DTSTAMP:20240828T164645Z
+DTSTAMP:20240829T044317Z
 DTSTART;VALUE=DATE:20241011
 DESCRIPTION:财务季度：Sep/2024 \n公司：摩根大通 \n预计每股收益: $4.06，当前市值: 0.62T。\n\n在股票App查
 	看： stocks://?symbol=JPM \n在富途查看：https://www.futunn.com/hk/stock/JPM-US 
@@ -112,9 +97,9 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3stpaCiJGOvr5L8rxr2SO
+UID:5F3tVFGus8qIkk69CDRAw
 SUMMARY: UNH(联合健康保险)发布财报
-DTSTAMP:20240828T164645Z
+DTSTAMP:20240829T044317Z
 DTSTART;VALUE=DATE:20241011
 DESCRIPTION:财务季度：Sep/2024 \n公司：联合健康保险 \n预计每股收益: $7.05，当前市值: 0.54T。\n\n在股票Ap
 	p查看： stocks://?symbol=UNH \n在富途查看：https://www.futunn.com/hk/stock/UNH-US 
