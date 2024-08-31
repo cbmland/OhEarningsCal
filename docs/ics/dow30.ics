@@ -6,24 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:IR7Dz5KIz5BwhWNJ2MKVC
-SUMMARY: WMT(沃尔玛)发布财报
-DTSTAMP:20240830T164432Z
-DTSTART;VALUE=DATE:20240815
-DESCRIPTION:财务季度：Jul/2024 \n公司：沃尔玛 \n预计每股收益: $0.65，当前市值: 0.59T。\n\n在股票App查看
-	： stocks://?symbol=WMT \n在富途查看：https://www.futunn.com/hk/stock/WMT-US 
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:TVzxoI123_zzexUoT_eml
+UID:HShbgg8K27E-zxab11eBm
 SUMMARY: CRM(赛富时)发布财报
-DTSTAMP:20240830T164432Z
+DTSTAMP:20240831T044329Z
 DTSTART;VALUE=DATE:20240828
 DESCRIPTION:财务季度：Jul/2024 \n公司：赛富时 \n预计每股收益: $1.73，当前市值: 0.25T。\n\n在股票App查看
 	： stocks://?symbol=CRM \n在富途查看：https://www.futunn.com/hk/stock/CRM-US 
@@ -36,9 +21,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:-HAo7-5TKbmg4cZy5Te98
+UID:Ff5kHzQDlCZ_B6CyQ4fdQ
 SUMMARY: NKE(耐克)发布财报
-DTSTAMP:20240830T164432Z
+DTSTAMP:20240831T044329Z
 DTSTART;VALUE=DATE:20240926
 DESCRIPTION:财务季度：Aug/2024 \n公司：耐克 \n预计每股收益: $0.54，当前市值: 0.13T。\n\n在股票App查看：
 	 stocks://?symbol=NKE \n在富途查看：https://www.futunn.com/hk/stock/NKE-US 
@@ -51,9 +36,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:HgsfZiiPkVsDkC_3PPTxJ
+UID:1QJK3OznwIXeyH5XtQ3Uw
 SUMMARY: WBA(沃尔格林博姿联合公司)发布财报
-DTSTAMP:20240830T164432Z
+DTSTAMP:20240831T044329Z
 DTSTART;VALUE=DATE:20241010
 DESCRIPTION:财务季度：Aug/2024 \n公司：沃尔格林博姿联合公司 \n预计每股收益: $0.36，当前市值: 7.99B。\n\n在
 	股票App查看： stocks://?symbol=WBA \n在富途查看：https://www.futunn.com/hk/stock/WBA-
@@ -67,9 +52,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:DHxjHhO-2VvLE8xjS8jeb
+UID:7wyLtsbMNa68gmto3QO-K
 SUMMARY:盘前 JPM(摩根大通)发布财报
-DTSTAMP:20240830T164432Z
+DTSTAMP:20240831T044329Z
 DTSTART;VALUE=DATE:20241011
 DESCRIPTION:财务季度：Sep/2024 \n公司：摩根大通 \n预计每股收益: $4.06，当前市值: 0.63T。\n\n在股票App查
 	看： stocks://?symbol=JPM \n在富途查看：https://www.futunn.com/hk/stock/JPM-US 
@@ -82,9 +67,9 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7xpD4qzWetbQgcAQpAzT-
+UID:yhIJqpxB4Jwj5SidRM1e_
 SUMMARY: UNH(联合健康保险)发布财报
-DTSTAMP:20240830T164432Z
+DTSTAMP:20240831T044329Z
 DTSTART;VALUE=DATE:20241011
 DESCRIPTION:财务季度：Sep/2024 \n公司：联合健康保险 \n预计每股收益: $7.05，当前市值: 0.55T。\n\n在股票Ap
 	p查看： stocks://?symbol=UNH \n在富途查看：https://www.futunn.com/hk/stock/UNH-US 
