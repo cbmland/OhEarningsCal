@@ -6,9 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:-3w1rzHY2RYelpkw3ZAzG
+UID:H9AbCbUBhxMxk0k0ZdDAy
 SUMMARY: ZS(Zscaler)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20240903
 DESCRIPTION:财务季度：Jul/2024 \n公司：Zscaler \n预计每股收益: ($0.14)，当前市值: 29.20B。\n\n在
 	股票App查看： stocks://?symbol=ZS \n在富途查看：https://www.futunn.com/hk/stock/ZS-US
@@ -22,9 +22,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lmzbi1hQ9lZFDVsbZjCO4
+UID:hXEOeBsC_WEDC86Kisvkq
 SUMMARY: CPRT(克帕特)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20240904
 DESCRIPTION:财务季度：Jul/2024 \n公司：克帕特 \n预计每股收益: $0.37，当前市值: 51B。\n\n在股票App查看： 
 	stocks://?symbol=CPRT \n在富途查看：https://www.futunn.com/hk/stock/CPRT-US 
@@ -37,9 +37,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:K43EVlj1I5Y7SzTSyLOGs
+UID:PhLdmlgMVDI_VtdZcCeZd
 SUMMARY: DLTR(美元树)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20240904
 DESCRIPTION:财务季度：Jul/2024 \n公司：美元树 \n预计每股收益: $1.03，当前市值: 13.70B。\n\n在股票App查
 	看： stocks://?symbol=DLTR \n在富途查看：https://www.futunn.com/hk/stock/DLTR-US 
@@ -52,9 +52,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tew5JGqs9HjmBOWmDs_n6
+UID:0pb86sRhrbKM5UZb1FuI8
 SUMMARY:盘后 AVGO(博通有限)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20240905
 DESCRIPTION:财务季度：Jul/2024 \n公司：博通有限 \n预计每股收益: $0.95，当前市值: 0.72T。\n\n在股票App查
 	看： stocks://?symbol=AVGO \n在富途查看：https://www.futunn.com/hk/stock/AVGO-US 
@@ -67,9 +67,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:Ih7fuDIum_Z7V565fGBFx
+UID:1kjsO4GaK7N7jz6Qyqzag
 SUMMARY: ADBE(Adobe)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20240912
 DESCRIPTION:财务季度：Aug/2024 \n公司：Adobe \n预计每股收益: $3.63，当前市值: 0.26T。\n\n在股票App
 	查看： stocks://?symbol=ADBE \n在富途查看：https://www.futunn.com/hk/stock/ADBE-US 
@@ -82,41 +82,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:waepcy9H1TbWr1z1Qm9ii
-SUMMARY:盘后 MU(美光科技)发布财报
-DTSTAMP:20240916T164713Z
-DTSTART;VALUE=DATE:20240925
-DESCRIPTION:财务季度：Aug/2024 \n公司：美光科技 \n预计每股收益: $0.97，当前市值: 96.70B。\n\n在股票App
-	查看： stocks://?symbol=MU \n在富途查看：https://www.futunn.com/hk/stock/MU-US 
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:xtbt6tq7AWzqoQZLXSMho
-SUMMARY: PAYX(沛齐)发布财报
-DTSTAMP:20240916T164713Z
-DTSTART;VALUE=DATE:20240925
-DESCRIPTION:财务季度：Aug/2024 \n公司：沛齐 \n预计每股收益: $1.14，当前市值: 48.30B。\n\n在股票App查看
-	： stocks://?symbol=PAYX \n在富途查看：https://www.futunn.com/hk/stock/PAYX-US 
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ayYo1uaNM2wpT3GV6Q8Ch
+UID:XC8cQFv6DjPoKt-ec71Cg
 SUMMARY:盘前 CTAS(信达思)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20240925
-DESCRIPTION:财务季度：Aug/2024 \n公司：信达思 \n预计每股收益: $1，当前市值: 20.80B。\n\n在股票App查看： 
+DESCRIPTION:财务季度：Aug/2024 \n公司：信达思 \n预计每股收益: $1，当前市值: 83.70B。\n\n在股票App查看： 
 	stocks://?symbol=CTAS \n在富途查看：https://www.futunn.com/hk/stock/CTAS-US 
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -127,9 +97,39 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:DGV4KDYStrhG9i_dagprv
+UID:P1YtskvLItwtmpSriK4OS
+SUMMARY:盘后 MU(美光科技)发布财报
+DTSTAMP:20240917T043955Z
+DTSTART;VALUE=DATE:20240925
+DESCRIPTION:财务季度：Aug/2024 \n公司：美光科技 \n预计每股收益: $0.97，当前市值: 0.10T。\n\n在股票App查
+	看： stocks://?symbol=MU \n在富途查看：https://www.futunn.com/hk/stock/MU-US 
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rBENLlXHUVrrExjco9wug
+SUMMARY: PAYX(沛齐)发布财报
+DTSTAMP:20240917T043955Z
+DTSTART;VALUE=DATE:20240925
+DESCRIPTION:财务季度：Aug/2024 \n公司：沛齐 \n预计每股收益: $1.14，当前市值: 48.60B。\n\n在股票App查看
+	： stocks://?symbol=PAYX \n在富途查看：https://www.futunn.com/hk/stock/PAYX-US 
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f00jiQH9IbYMKgYlOaLBs
 SUMMARY:盘后 COST(好市多)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20240926
 DESCRIPTION:财务季度：Aug/2024 \n公司：好市多 \n预计每股收益: $5.04，当前市值: 0.41T。\n\n在股票App查看
 	： stocks://?symbol=COST \n在富途查看：https://www.futunn.com/hk/stock/COST-US 
@@ -142,9 +142,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:vPcSwEe0WC_kQGdEnmbiZ
+UID:tKOnA3Q8pNp6nU9Nw18Mo
 SUMMARY:盘前 PEP(百事公司)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241008
 DESCRIPTION:财务季度：Sep/2024 \n公司：百事公司 \n预计每股收益: $2.31，当前市值: 0.24T。\n\n在股票App查
 	看： stocks://?symbol=PEP \n在富途查看：https://www.futunn.com/hk/stock/PEP-US 
@@ -157,9 +157,9 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:VmYdM67-lKufoK_1tU6MD
+UID:qzQDJMvK1u3N_LpH0EJlG
 SUMMARY:盘前 FAST(快扣)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241011
 DESCRIPTION:财务季度：Sep/2024 \n公司：快扣 \n预计每股收益: $0.52，当前市值: 40B。\n\n在股票App查看： s
 	tocks://?symbol=FAST \n在富途查看：https://www.futunn.com/hk/stock/FAST-US 
@@ -172,9 +172,9 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:CABFy_gS2iPOUPLgTUBf6
+UID:A9Ad77JTSdGRWsReYv7gj
 SUMMARY:盘前 WBA(沃尔格林联合博姿)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241015
 DESCRIPTION:财务季度：Aug/2024 \n公司：沃尔格林联合博姿 \n预计每股收益: $0.36，当前市值: 7.95B。\n\n在股票
 	App查看： stocks://?symbol=WBA \n在富途查看：https://www.futunn.com/hk/stock/WBA-US
@@ -188,9 +188,9 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3u2rxiFk2mc_EO_j4rr0-
+UID:LqYNUsgPEmsWTXYT8YJ8q
 SUMMARY: TSLA(特斯拉)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241016
 DESCRIPTION:财务季度：Sep/2024 \n公司：特斯拉 \n预计每股收益: $0.46，当前市值: 0.74T。\n\n在股票App查看
 	： stocks://?symbol=TSLA \n在富途查看：https://www.futunn.com/hk/stock/TSLA-US 
@@ -203,9 +203,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8DA3U0L1PNLwOAOSc3DaC
+UID:czH0JRFkPrD6s9asblidb
 SUMMARY: ASML(艾司摩尔)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241016
 DESCRIPTION:财务季度：Sep/2024 \n公司：艾司摩尔 \n预计每股收益: $5.47，当前市值: 0.32T。\n\n在股票App查
 	看： stocks://?symbol=ASML \n在富途查看：https://www.futunn.com/hk/stock/ASML-US 
@@ -218,9 +218,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:UKr8j2kgiYpdjOZ7n2v91
+UID:nRkH_mQdFav1y5hTAriL2
 SUMMARY: NFLX(Netflix)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241016
 DESCRIPTION:财务季度：Sep/2024 \n公司：Netflix \n预计每股收益: $5.07，当前市值: 0.30T。\n\n在股票A
 	pp查看： stocks://?symbol=NFLX \n在富途查看：https://www.futunn.com/hk/stock/NFLX-U
@@ -234,9 +234,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:IhqK1PoadesiqSSq36SBf
+UID:4H-1iJl3SEwh6UoIYA_6C
 SUMMARY: LRCX(泛林集团)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241016
 DESCRIPTION:财务季度：Sep/2024 \n公司：泛林集团 \n预计每股收益: $8，当前市值: 100B。\n\n在股票App查看： s
 	tocks://?symbol=LRCX \n在富途查看：https://www.futunn.com/hk/stock/LRCX-US 
@@ -249,11 +249,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:vugFMLCpOHG-gxxyxuLw-
-SUMMARY: ISRG(直觉手术)发布财报
-DTSTAMP:20240916T164713Z
+UID:C0BSRQkQBiij36uhcskQ-
+SUMMARY:盘后 ISRG(直觉手术)发布财报
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241017
-DESCRIPTION:财务季度：Sep/2024 \n公司：直觉手术 \n预计每股收益: $1.25，当前市值: 0.18T。\n\n在股票App查
+DESCRIPTION:财务季度：Sep/2024 \n公司：直觉手术 \n预计每股收益: $1.25，当前市值: 0.17T。\n\n在股票App查
 	看： stocks://?symbol=ISRG \n在富途查看：https://www.futunn.com/hk/stock/ISRG-US 
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -264,12 +264,12 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:x2x6SQzpEGr6Of-GsgZ9N
+UID:wavMRzh-jTtdblEHO6srU
 SUMMARY: CSX(CSX公司)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241017
-DESCRIPTION:财务季度：Sep/2024 \n公司：CSX公司 \n预计每股收益: $0.48，当前市值: 64.90B。\n\n在股票Ap
-	p查看： stocks://?symbol=CSX \n在富途查看：https://www.futunn.com/hk/stock/CSX-US 
+DESCRIPTION:财务季度：Sep/2024 \n公司：CSX公司 \n预计每股收益: $0.48，当前市值: 65B。\n\n在股票App查看
+	： stocks://?symbol=CSX \n在富途查看：https://www.futunn.com/hk/stock/CSX-US 
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
@@ -279,9 +279,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:IBHwHMdRqAmWjak--VgV7
+UID:Bz7Cdx2-Gp1TBibgfWNmw
 SUMMARY:盘前 PCAR(帕卡)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241022
 DESCRIPTION:财务季度：Sep/2024 \n公司：帕卡 \n预计每股收益: $1.82，当前市值: 49.90B。\n\n在股票App查看
 	： stocks://?symbol=PCAR \n在富途查看：https://www.futunn.com/hk/stock/PCAR-US 
@@ -294,9 +294,9 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c4XBEErKYno3BDDVhMcFV
+UID:_3HQmQHYE9hnXxaI77seY
 SUMMARY: MSFT(微软)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241022
 DESCRIPTION:财务季度：Sep/2024 \n公司：微软 \n预计每股收益: $3.09，当前市值: 3.20T。\n\n在股票App查看：
 	 stocks://?symbol=MSFT \n在富途查看：https://www.futunn.com/hk/stock/MSFT-US 
@@ -309,9 +309,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5QX76rZAMiMoAD77m1UpD
+UID:lXCmm3x65ZV0kqlzbtIkS
 SUMMARY: GOOG(Alphabet (Class C))发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241022
 DESCRIPTION:财务季度：Sep/2024 \n公司：Alphabet (Class C) \n预计每股收益: $1.83，当前市值: 1.9
 	5T。\n\n在股票App查看： stocks://?symbol=GOOG \n在富途查看：https://www.futunn.com/hk/s
@@ -325,9 +325,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:aClcYd9NdCz2Ite5KaYWE
+UID:v7L-aBxw03zJ4qZynu-F2
 SUMMARY: GOOGL(Alphabet (Class A))发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241022
 DESCRIPTION:财务季度：Sep/2024 \n公司：Alphabet (Class A) \n预计每股收益: $1.83，当前市值: 1.9
 	4T。\n\n在股票App查看： stocks://?symbol=GOOGL \n在富途查看：https://www.futunn.com/hk/
@@ -341,9 +341,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:CML4VwqJ0cE8F3gH6hMcq
+UID:IlAN1U4fy4WTmdKVWB2Sf
 SUMMARY: TXN(德州仪器)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241022
 DESCRIPTION:财务季度：Sep/2024 \n公司：德州仪器 \n预计每股收益: $1.36，当前市值: 0.18T。\n\n在股票App查
 	看： stocks://?symbol=TXN \n在富途查看：https://www.futunn.com/hk/stock/TXN-US 
@@ -356,9 +356,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ZrCLdB0Zuyrcnf-4VtFix
+UID:uXfNxQSd6wffBiv1I7XSX
 SUMMARY:盘后 BKR(贝克休斯)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241022
 DESCRIPTION:财务季度：Sep/2024 \n公司：贝克休斯 \n预计每股收益: $0.60，当前市值: 33.20B。\n\n在股票App
 	查看： stocks://?symbol=BKR \n在富途查看：https://www.futunn.com/hk/stock/BKR-US 
@@ -371,9 +371,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bh4RpfWrSITHeJP7LqGia
+UID:M5cGSfYgYeiU3kgftDGXL
 SUMMARY:盘后 CSGP(科斯塔集团)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241022
 DESCRIPTION:财务季度：Sep/2024 \n公司：科斯塔集团 \n预计每股收益: $0.11，当前市值: 32.30B。\n\n在股票Ap
 	p查看： stocks://?symbol=CSGP \n在富途查看：https://www.futunn.com/hk/stock/CSGP-US
@@ -387,9 +387,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:Udk98MmRlxCLS4FfCHoxs
+UID:M2F_yk9PsB0ygkepVvE2v
 SUMMARY: TMUS(T-Mobile美国)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241023
 DESCRIPTION:财务季度：Sep/2024 \n公司：T-Mobile美国 \n预计每股收益: $2.34，当前市值: 0.24T。\n\n在
 	股票App查看： stocks://?symbol=TMUS \n在富途查看：https://www.futunn.com/hk/stock/TMU
@@ -403,9 +403,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:K2wC_OWkI3O0B2oYoeu2g
+UID:qIHfrZWpyDYHvva0alFQm
 SUMMARY: ADP(ADP)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241023
 DESCRIPTION:财务季度：Sep/2024 \n公司：ADP \n预计每股收益: $2.20，当前市值: 0.11T。\n\n在股票App查看
 	： stocks://?symbol=ADP \n在富途查看：https://www.futunn.com/hk/stock/ADP-US 
@@ -418,12 +418,12 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:qxeSYh7YiL0-AZRluirzg
+UID:DMwfayLiQ6oJ9J6CJFnSr
 SUMMARY: KLAC(科磊)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241023
-DESCRIPTION:财务季度：Sep/2024 \n公司：科磊 \n预计每股收益: $7.02，当前市值: 98.60B。\n\n在股票App查看
-	： stocks://?symbol=KLAC \n在富途查看：https://www.futunn.com/hk/stock/KLAC-US 
+DESCRIPTION:财务季度：Sep/2024 \n公司：科磊 \n预计每股收益: $7.02，当前市值: 0.10T。\n\n在股票App查看：
+	 stocks://?symbol=KLAC \n在富途查看：https://www.futunn.com/hk/stock/KLAC-US 
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
@@ -433,12 +433,12 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:76EpP4mb_Usj5_H0M0O-_
+UID:L8_qcIofI5fR7gjyCcKxY
 SUMMARY: ORLY(奥莱利)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241023
-DESCRIPTION:财务季度：Sep/2024 \n公司：奥莱利 \n预计每股收益: $11.57，当前市值: 65B。\n\n在股票App查看：
-	 stocks://?symbol=ORLY \n在富途查看：https://www.futunn.com/hk/stock/ORLY-US 
+DESCRIPTION:财务季度：Sep/2024 \n公司：奥莱利 \n预计每股收益: $11.57，当前市值: 65.30B。\n\n在股票App
+	查看： stocks://?symbol=ORLY \n在富途查看：https://www.futunn.com/hk/stock/ORLY-US 
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
@@ -448,13 +448,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:TQGIkBYYOTlq_tnA9-dFq
+UID:In8yyWK5L91N2vEFWp2Aj
 SUMMARY: ODFL(Old Dominion Freight Line)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241023
 DESCRIPTION:财务季度：Sep/2024 \n公司：Old Dominion Freight Line \n预计每股收益: $1.47，当前
-	市值: 41B。\n\n在股票App查看： stocks://?symbol=ODFL \n在富途查看：https://www.futunn.com
-	/hk/stock/ODFL-US 
+	市值: 41.30B。\n\n在股票App查看： stocks://?symbol=ODFL \n在富途查看：https://www.futunn.
+	com/hk/stock/ODFL-US 
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
@@ -464,11 +464,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:SEWZzBSc62kBpuIHwQeUO
+UID:0xcqTLNO0fMmUbJqf4quB
 SUMMARY: ALGN(爱奇科技)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241023
-DESCRIPTION:财务季度：Sep/2024 \n公司：爱奇科技 \n预计每股收益: $1.89，当前市值: 17.10B。\n\n在股票App
+DESCRIPTION:财务季度：Sep/2024 \n公司：爱奇科技 \n预计每股收益: $1.89，当前市值: 18.20B。\n\n在股票App
 	查看： stocks://?symbol=ALGN \n在富途查看：https://www.futunn.com/hk/stock/ALGN-US 
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -479,9 +479,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lQDKmv7HhCgLwhpvd-vTJ
+UID:TxxN6712n22cc0y0eiG6N
 SUMMARY: AMZN(亚马逊)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241024
 DESCRIPTION:财务季度：Sep/2024 \n公司：亚马逊 \n预计每股收益: $1.15，当前市值: 1.96T。\n\n在股票App查看
 	： stocks://?symbol=AMZN \n在富途查看：https://www.futunn.com/hk/stock/AMZN-US 
@@ -494,9 +494,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9ewITCaYaXQFGS2GkAsZx
+UID:gQNawnsXtyB98ELGcNCTy
 SUMMARY: CMCSA(康卡斯特)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241024
 DESCRIPTION:财务季度：Sep/2024 \n公司：康卡斯特 \n预计每股收益: $1.06，当前市值: 0.15T。\n\n在股票App查
 	看： stocks://?symbol=CMCSA \n在富途查看：https://www.futunn.com/hk/stock/CMCSA-US
@@ -510,9 +510,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eealb56Wsdy-WcrLMBgqW
+UID:ba97qOjPwNGU3v-bYp936
 SUMMARY: HON(霍尼韦尔)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241024
 DESCRIPTION:财务季度：Sep/2024 \n公司：霍尼韦尔 \n预计每股收益: $2.52，当前市值: 0.13T。\n\n在股票App查
 	看： stocks://?symbol=HON \n在富途查看：https://www.futunn.com/hk/stock/HON-US 
@@ -525,9 +525,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:kZB3kCCWlL7J5kBlBQfIs
+UID:IPRf-FoCC-1GF1ayI4oz2
 SUMMARY: INTC(英特尔)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241024
 DESCRIPTION:财务季度：Sep/2024 \n公司：英特尔 \n预计每股收益: ($0.20)，当前市值: 84.10B。\n\n在股票Ap
 	p查看： stocks://?symbol=INTC \n在富途查看：https://www.futunn.com/hk/stock/INTC-US
@@ -541,9 +541,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:_3obUVgJIE9dBALkHQ48p
+UID:Y_oDZ2ks6qUXquFBI24Hr
 SUMMARY: KDP(Keurig Dr Pepper)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241024
 DESCRIPTION:财务季度：Sep/2024 \n公司：Keurig Dr Pepper \n预计每股收益: $0.51，当前市值: 51B。\
 	n\n在股票App查看： stocks://?symbol=KDP \n在富途查看：https://www.futunn.com/hk/stock/
@@ -557,9 +557,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:He4SghtZiYqLTWgFstryb
+UID:THyJ44nbaSpOihQXbVGX8
 SUMMARY: DXCM(Dexcom)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241024
 DESCRIPTION:财务季度：Sep/2024 \n公司：Dexcom \n预计每股收益: $0.44，当前市值: 27.90B。\n\n在股票A
 	pp查看： stocks://?symbol=DXCM \n在富途查看：https://www.futunn.com/hk/stock/DXCM-U
@@ -573,9 +573,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:J1OoLLw44RvL8QO6OHw4U
+UID:aE2YRC0q7D769fzff4gWZ
 SUMMARY: CHTR(特许通讯)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241025
 DESCRIPTION:财务季度：Sep/2024 \n公司：特许通讯 \n预计每股收益: $8.62，当前市值: 48.60B。\n\n在股票App
 	查看： stocks://?symbol=CHTR \n在富途查看：https://www.futunn.com/hk/stock/CHTR-US 
@@ -588,9 +588,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:qu13DkTh4kMFAjw-yWD3c
+UID:uKpy---YoH4Kit_lvrQ1f
 SUMMARY: XEL(埃克西尔)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241025
 DESCRIPTION:财务季度：Sep/2024 \n公司：埃克西尔 \n预计每股收益: $1.31，当前市值: 35.60B。\n\n在股票App
 	查看： stocks://?symbol=XEL \n在富途查看：https://www.futunn.com/hk/stock/XEL-US 
@@ -603,9 +603,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:YvypXp7c5vx3Bh_XaYOH1
+UID:lfJ62QzaT3rt74FKwGjqg
 SUMMARY: CDNS(Cadence)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241028
 DESCRIPTION:财务季度：Sep/2024 \n公司：Cadence \n预计每股收益: $1.14，当前市值: 73.60B。\n\n在股票
 	App查看： stocks://?symbol=CDNS \n在富途查看：https://www.futunn.com/hk/stock/CDNS-
@@ -619,9 +619,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:l80E4jaZ4B9EJ85WHeXSY
+UID:5eyVc42L3Sd_4K5hJ14Y5
 SUMMARY: AMD(超微半导体)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241029
 DESCRIPTION:财务季度：Sep/2024 \n公司：超微半导体 \n预计每股收益: $0.71，当前市值: 0.25T。\n\n在股票App
 	查看： stocks://?symbol=AMD \n在富途查看：https://www.futunn.com/hk/stock/AMD-US 
@@ -634,9 +634,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:Q0bUIqMPuuScD5ByRL2MM
+UID:djzqFq5UTj6QDXwAip9iH
 SUMMARY: AMGN(安进)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241029
 DESCRIPTION:财务季度：Sep/2024 \n公司：安进 \n预计每股收益: $5.13，当前市值: 0.18T。\n\n在股票App查看：
 	 stocks://?symbol=AMGN \n在富途查看：https://www.futunn.com/hk/stock/AMGN-US 
@@ -649,9 +649,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:_Jf2O5VK_DvsQoRC4QGza
+UID:8gld-ygvRuoixZICHW7xA
 SUMMARY: GEHC(GE医疗)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241029
 DESCRIPTION:财务季度：Sep/2024 \n公司：GE医疗 \n预计每股收益: $1.06，当前市值: 39.70B。\n\n在股票App
 	查看： stocks://?symbol=GEHC \n在富途查看：https://www.futunn.com/hk/stock/GEHC-US 
@@ -664,9 +664,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9L7Yg432GG35dCai10-B6
+UID:cg5SA2bMb3t_KClXQ-37X
 SUMMARY: SIRI(天狼星XM)发布财报
-DTSTAMP:20240916T164713Z
+DTSTAMP:20240917T043955Z
 DTSTART;VALUE=DATE:20241029
 DESCRIPTION:财务季度：Sep/2024 \n公司：天狼星XM \n预计每股收益: $0.76，当前市值: 9.44B。\n\n在股票App
 	查看： stocks://?symbol=SIRI \n在富途查看：https://www.futunn.com/hk/stock/SIRI-US 
