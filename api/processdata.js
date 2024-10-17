@@ -114,7 +114,18 @@ function formatData(datas) {
             result.push(...subArray);
         }
     });
-    const uniqueData = Array.from(new Map(result.map(item => [item.symbol, item])).values());
+    let uniqueData = Array.from(new Map(result.map(item => [item.symbol, item])).values());
+    // 自定义比较函数，让“盘前”的元素排在“盘后”之前
+    uniqueData.sort((a, b) => {
+        if (a.time === "盘前" && b.time === "盘后") {
+            return -1; // a排在b之前
+        } else if (a.time === "盘后" && b.time === "盘前") {
+            return 1; // b排在a之前
+        } else {
+            return 0; // 保持原有顺序
+        }
+    });
+
     const sortedData = uniqueData.sort((a, b) => new Date(a.date) - new Date(b.date));
     return sortedData;
 };
