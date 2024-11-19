@@ -6,9 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:R0iBz_VU3y-saM8QHLfdM
+UID:c0iRoBVXl_gRyHz6midTE
 SUMMARY: HD(家得宝)发布财报
-DTSTAMP:20241119T044514Z
+DTSTAMP:20241119T164841Z
 DTSTART;VALUE=DATE:20241112
 DESCRIPTION:财务季度：Oct/2024 \n公司：家得宝 \n预计每股收益: $3.64，当前市值: 0.40T。\n\n在股票App查看
 	： stocks://?symbol=HD \n在富途查看：https://www.futunn.com/hk/stock/HD-US 
@@ -21,9 +21,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:_0TDY1Pm7bnagBVPGE3Fk
+UID:aCi4VkK1Uo2KJqlTEURba
 SUMMARY: CSCO(思科系统)发布财报
-DTSTAMP:20241119T044514Z
+DTSTAMP:20241119T164841Z
 DTSTART;VALUE=DATE:20241113
 DESCRIPTION:财务季度：Oct/2024 \n公司：思科系统 \n预计每股收益: $0.71，当前市值: 0.24T。\n\n在股票App查
 	看： stocks://?symbol=CSCO \n在富途查看：https://www.futunn.com/hk/stock/CSCO-US 
@@ -36,9 +36,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:EBLBBtXrKT3Ticjtzul0Q
+UID:ZAGwENCAIikqET_g5GSHd
 SUMMARY: DIS(华特迪士尼)发布财报
-DTSTAMP:20241119T044514Z
+DTSTAMP:20241119T164841Z
 DTSTART;VALUE=DATE:20241114
 DESCRIPTION:财务季度：Sep/2024 \n公司：华特迪士尼 \n预计每股收益: $1.09，当前市值: 0.20T。\n\n在股票App
 	查看： stocks://?symbol=DIS \n在富途查看：https://www.futunn.com/hk/stock/DIS-US 
@@ -51,9 +51,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mCs3etQU--2W3OAtjPZdp
+UID:FdgVywH8xb0H19znJoAHd
 SUMMARY:盘前 WMT(沃尔玛)发布财报
-DTSTAMP:20241119T044514Z
+DTSTAMP:20241119T164841Z
 DTSTART;VALUE=DATE:20241119
 DESCRIPTION:财务季度：Oct/2024 \n公司：沃尔玛 \n预计每股收益: $0.53，当前市值: 0.68T。\n\n在股票App查看
 	： stocks://?symbol=WMT \n在富途查看：https://www.futunn.com/hk/stock/WMT-US 
@@ -66,9 +66,9 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:-rpbF7gqW8SIyCKD_BL8l
+UID:JZvW7fKDqkS1WaaeURGVT
 SUMMARY:盘后 CRM(赛富时)发布财报
-DTSTAMP:20241119T044514Z
+DTSTAMP:20241119T164841Z
 DTSTART;VALUE=DATE:20241203
 DESCRIPTION:财务季度：Oct/2024 \n公司：赛富时 \n预计每股收益: $1.77，当前市值: 0.31T。\n\n在股票App查看
 	： stocks://?symbol=CRM \n在富途查看：https://www.futunn.com/hk/stock/CRM-US 
@@ -81,9 +81,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1D94MyMJrIs_zCC8fw5Ph
+UID:lJX-mrDPcUwmjjwssO8aR
 SUMMARY: NKE(耐克)发布财报
-DTSTAMP:20241119T044514Z
+DTSTAMP:20241119T164841Z
 DTSTART;VALUE=DATE:20241219
 DESCRIPTION:财务季度：Nov/2024 \n公司：耐克 \n预计每股收益: $0.64，当前市值: 0.11T。\n\n在股票App查看：
 	 stocks://?symbol=NKE \n在富途查看：https://www.futunn.com/hk/stock/NKE-US 
@@ -96,11 +96,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:kykvyaKRxi0_ku0HPbmsW
+UID:BPHV7_xbBBM7SmPtrwx9e
 SUMMARY: WBA(沃尔格林博姿联合公司)发布财报
-DTSTAMP:20241119T044514Z
+DTSTAMP:20241119T164841Z
 DTSTART;VALUE=DATE:20250102
-DESCRIPTION:财务季度：Nov/2024 \n公司：沃尔格林博姿联合公司 \n预计每股收益: $0.40，当前市值: 7.62B。\n\n在
+DESCRIPTION:财务季度：Nov/2024 \n公司：沃尔格林博姿联合公司 \n预计每股收益: $0.40，当前市值: 7.49B。\n\n在
 	股票App查看： stocks://?symbol=WBA \n在富途查看：https://www.futunn.com/hk/stock/WBA-
 	US 
 STATUS:CONFIRMED
