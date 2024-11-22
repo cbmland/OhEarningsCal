@@ -4,12 +4,18 @@ import { generateEarningsICSCalendar } from './genics.js';
 import dotenv from 'dotenv';
 dotenv.config();
 
+import { downloadData } from './getConfig.js';
+
+
 const today = new Date().toISOString().split('T')[0];
 let selected = [];
 let shouldGenSelected = process.env.SHOULD_GEN_SELECTED === 'true' || false;
 let shouldGenAll = process.env.SHOULD_GEN_ALL === 'true' || false;
 
 async function genAllIcs() {
+
+    await downloadData('https://cbmland.com/CloudStatic/portfilio/earnings-cal.json','customstock.json')
+
     const stocklist = await getdata() || {};
     const names = await getlist() || [];
     const total = names.length || 0;
