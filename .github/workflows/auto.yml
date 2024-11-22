@@ -45,7 +45,7 @@ jobs:
         SHOULD_GEN_SELECTED: ${{ vars.SHOULD_GEN_SELECTED }}
         SHOULD_GEN_ALL: ${{ vars.SHOULD_GEN_ALL }}
 
-    - name: Waiting for 10 seconds
+    - name: Waiting for 3 seconds
       run: sleep 3
 
     - name: Run genAllIcs script
@@ -61,6 +61,7 @@ jobs:
         path: |
           datas/**/*.json
           storedData/**/*.json
+          docs/**/*.ics
 
 
     - name: Commit files
