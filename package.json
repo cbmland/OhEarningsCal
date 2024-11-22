@@ -8,6 +8,8 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "github_get": "node api/github_get.js",
+    "github_gen": "node api/github_gen.js",
     "local-dev": "nodemon dev.js"
   },
   "author": "",
