@@ -2,7 +2,7 @@ import { readFileSync, readdirSync } from 'fs';
 
 // 从 ./datas/ 目录下检索所有 json 文件名称，并导入为变量
 async function getlist() {
-    const files = readdirSync('./api/datas');
+    const files = readdirSync('./datas');
     const list = files.filter(item => item.endsWith('.json'));
     list.forEach((item, index) => {
         list[index] = item.replace('.json', '');
@@ -15,7 +15,7 @@ async function getdata() {
     const filenames = await getlist();
     const data = {};
     for (const filename of filenames) {
-        data[filename] = readFileSync(`./api/datas/${filename}.json`, 'utf8');
+        data[filename] = readFileSync(`./datas/${filename}.json`, 'utf8');
         data[filename] = JSON.parse(data[filename]);
     }
     return data;

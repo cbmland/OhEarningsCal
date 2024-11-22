@@ -46,13 +46,22 @@ jobs:
         SHOULD_GEN_ALL: ${{ vars.SHOULD_GEN_ALL }}
 
     - name: Waiting for 10 seconds
-      run: sleep 10
+      run: sleep 3
 
     - name: Run genAllIcs script
       run: node ./api/github_gen.js
       env:
         SHOULD_GEN_SELECTED: ${{ vars.SHOULD_GEN_SELECTED }}
         SHOULD_GEN_ALL: ${{ vars.SHOULD_GEN_ALL }}
+
+    - name: Upload multiple files
+      uses: actions/upload-artifact@v4
+      with:
+        name: OhEarningsCal-results
+        path: |
+          datas/**/*.json
+          storedData/**/*.json
+
 
     - name: Commit files
       env:

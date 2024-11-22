@@ -1,6 +1,7 @@
 import { createEvents } from 'ics';
 import { writeFileSync } from 'fs';
 import { processData } from './processdata.js';
+import {ensureDirectoryExists} from './getConfig.js'
 
 function simplifyNumber(marketValueStr) {
     let number = parseFloat(marketValueStr.replace(/[$,]/g, "")); // 将字符串转换为数字并去除 $ 和逗号
@@ -51,6 +52,7 @@ async function generateEarningsICSCalendar(date,list,filename) {
                 console.error(error);
                 return;
             }
+            ensureDirectoryExists('./docs/ics/')
             writeFileSync(`./docs/ics/${filename}.ics`, value);
             console.log(`Earnings calendar .ics file has been saved to ./docs/ics/${filename}.ics.`);
         });

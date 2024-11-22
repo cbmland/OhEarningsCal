@@ -35,7 +35,7 @@ const extractFilename = (url) => {
 };
 
 // 确保目录存在
-const ensureDirectoryExists = async (dirPath) => {
+async function ensureDirectoryExists  (dirPath) {
     try {
         await fs.access(dirPath);
     } catch {
@@ -99,7 +99,7 @@ async function downloadData(url,fileName) {
         throw new Error('URL is required');
     }
 
-    const saveDir = path.join(__dirname, 'datas');
+    const saveDir = path.join(__dirname, '../datas');
     
     if (!fileName)
     {
@@ -132,4 +132,4 @@ async function downloadData(url,fileName) {
     }
 }
 
-export { downloadData };
+export { downloadData ,ensureDirectoryExists};
