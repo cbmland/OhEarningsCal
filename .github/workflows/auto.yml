@@ -41,10 +41,40 @@ jobs:
         SHOULD_GEN_ALL: ${{ vars.SHOULD_GEN_ALL }}
 
     - name: Commit files
+      env:
+        # 在源仓库的 Settings -> Secrets -> Actions 中设置 DEPLOY_KEY
+        SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        CURRENT_DATE=$(date +"%Y-%m-%d")
-        git commit -m "Bot auto update - $CURRENT_DATE" -a || echo "No changes to commit"
-        git push --force
+        if [ "$ENVIRONMENT" = "production" ]; then
+
+            echo "Running production deployment"
+            
+            # 设置 SSH
+            mkdir -p ~/.ssh
+            echo "$SSH_DEPLOY_KEY" > ~/.ssh/id_rsa
+            chmod 600 ~/.ssh/id_rsa
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
+            # 配置 Git
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            
+            # 克隆目标仓库
+            git clone git@github.com:cbmland/CloudStatic.git target_repo
+            
+            
+            # 复制构建产物到目标仓库
+            cp -r docs/* target_repo/
+            
+            # 提交并推送
+            cd target_repo
+            touch dummy.txt
+            git add .
+            CURRENT_DATE=$(date +"%Y-%m-%d")
+            git commit -m "chore: trigger workflow - $CURRENT_DATE" -a || echo "No changes to commit"
+            git push origin main
+
+        else
+
+          echo "Running development deployment"
+          
+        fi
