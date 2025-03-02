@@ -29,7 +29,7 @@ async function generateEarningsICSCalendar(date,list,filename) {
             const start = [dateParts[0], dateParts[1], dateParts[2]];
             return {
                 title: `${entry.time} ${entry.symbol}(${entry.companyName})发布财报`,
-                description: `财务季度：${entry.fiscalQuarterEnding} \n公司：${entry.companyName} \n预计每股收益: ${entry.epsForecast}，当前市值: ${simplifyNumber(entry.marketCap)}。\n\n在股票App查看： stocks://?symbol=${entry.symbol} \n在富途查看：https://www.futunn.com/hk/stock/${entry.symbol}-US `,
+                description: `财务季度：${entry.fiscalQuarterEnding} \n公司：${entry.companyName} \n预计每股收益: ${entry.epsForecast}，当前市值: ${simplifyNumber(entry.marketCap)}。\n\n在股票App查看： stocks://?symbol=${entry.symbol} \n在富途查看：https://www.futunn.com/hk/stock/${entry.symbol}-US \n在老虎查看：https://www.laohu8.com/stock/${entry.symbol} \nTradingView：https://www.tradingview.com/symbols/${entry.symbol}/`,
                 start: start,
                 startInputType: 'utc', // 时区会有误差，但可以接受
                 status: 'CONFIRMED',
