@@ -58,6 +58,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: OhEarningsCal-results
+        retention-days: 7
         path: |
           datas/**/*.json
           storedData/**/*.json
