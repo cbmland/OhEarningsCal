@@ -14,7 +14,7 @@ let shouldGenAll = process.env.SHOULD_GEN_ALL === 'true' || false;
 
 async function genAllIcs() {
 
-    await downloadData('https://cbmland.com/CloudStatic/portfilio/earnings-cal.json','customstock.json')
+    await downloadData('https://cbmland.com/CloudStatic/portfolio/earnings-cal.json','customstock.json')
 
     const stocklist = await getdata() || {};
     const names = await getlist() || [];
