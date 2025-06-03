@@ -84,7 +84,7 @@ jobs:
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
             
             # 克隆目标仓库
-            git clone git@github.com:cbmland/CloudStatic.git target_repo
+            git clone --depth 1 git@github.com:cbmland/CloudStatic.git target_repo
             
             
             # 复制构建产物到目标仓库
