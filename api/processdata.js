@@ -55,8 +55,8 @@ function filterData(earnings, stocklist) {
         // 选择从 earnings 中来的字段
 
         symbol: earning.symbol,
-        // 财报日期
-        date: originalDate,
+        // 财报日期，如果是盘后则调整为第二天
+        date: earning.time === 'time-after-hours' ? addOneDay(originalDate) : originalDate,
         // 市值
         marketCap: earning.marketCap ? earning.marketCap : 'N/A',
         // 财报季度
@@ -95,7 +95,8 @@ function filterData_all(earnings) {
     return filteredEarnings.map(earning => ({
 
         symbol: earning.symbol,
-        date: originalDate,
+        // 财报日期，如果是盘后则调整为第二天
+        date: earning.time === 'time-after-hours' ? addOneDay(originalDate) : originalDate,
         marketCap: earning.marketCap ? earning.marketCap : 'N/A',
         fiscalQuarterEnding: earning.fiscalQuarterEnding ? earning.fiscalQuarterEnding : '',
         time: earning.time ? earning.time === 'time-pre-market' ? '盘前' : earning.time === 'time-after-hours' ? '盘后' : '' : '',
@@ -111,16 +112,17 @@ function formatData(datas) {
     const result = [];
     datas.forEach(subArray => {
         if (subArray.length > 0) {
+            
             result.push(...subArray);
         }
     });
     let uniqueData = Array.from(new Map(result.map(item => [item.symbol, item])).values());
-    // 自定义比较函数，让“盘前”的元素排在“盘后”之前
+    // 自定义比较函数，让"盘前"的元素排在"盘后"之前
     uniqueData.sort((a, b) => {
         if (a.time === "盘前" && b.time === "盘后") {
-            return -1; // a排在b之前
-        } else if (a.time === "盘后" && b.time === "盘前") {
             return 1; // b排在a之前
+        } else if (a.time === "盘后" && b.time === "盘前") {
+            return -1; //a排在b之前
         } else {
             return 0; // 保持原有顺序
         }
