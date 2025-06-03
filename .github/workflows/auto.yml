@@ -45,8 +45,8 @@ jobs:
         SHOULD_GEN_SELECTED: ${{ vars.SHOULD_GEN_SELECTED }}
         SHOULD_GEN_ALL: ${{ vars.SHOULD_GEN_ALL }}
 
-    - name: Waiting for 3 seconds
-      run: sleep 3
+    - name: Waiting for 1 seconds
+      run: sleep 1
 
     - name: Run genAllIcs script
       run: node ./api/github_gen.js
@@ -54,23 +54,35 @@ jobs:
         SHOULD_GEN_SELECTED: ${{ vars.SHOULD_GEN_SELECTED }}
         SHOULD_GEN_ALL: ${{ vars.SHOULD_GEN_ALL }}
 
-    - name: Upload multiple files
-      uses: actions/upload-artifact@v4
-      with:
-        name: OhEarningsCal-results
-        retention-days: 7
-        path: |
-          datas/**/*.json
-          storedData/**/*.json
-          docs/**/*.ics
-
+    # - name: Upload multiple files
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: OhEarningsCal-results
+    #     retention-days: 7
+    #     path: |
+    #       datas/**/*.json
+    #       storedData/**/*.json
+    #       docs/**/*.ics
 
     - name: Commit files
+      run: |
+        if [ "$(date +%u)" = "3" ]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          CURRENT_DATE=$(date +"%Y-%m-%d")
+          git commit -m "Bot weekly update - $CURRENT_DATE" -a || echo "No changes to commit"
+          git push --force
+        else
+          echo "Not Wednesday, skipping commit"
+        fi
+
+    - name: Push files to target repo
       env:
         # 在源仓库的 Settings -> Secrets -> Actions 中设置 DEPLOY_KEY
         SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
       run: |
-        if [ "$ENVIRONMENT" = "production" ]; then
+        if [ "$ENVIRONMENT" = "production" ] && [ "$(date +%u)" = "3" ]; then
 
             echo "Running production deployment"
             
