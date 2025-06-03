@@ -56,7 +56,7 @@ function filterData(earnings, stocklist) {
 
         symbol: earning.symbol,
         // 财报日期，如果是盘后则调整为第二天
-        date: earning.time === 'time-after-hours' ? addOneDay(originalDate) : originalDate,
+        date: originalDate,
         // 市值
         marketCap: earning.marketCap ? earning.marketCap : 'N/A',
         // 财报季度
@@ -96,7 +96,7 @@ function filterData_all(earnings) {
 
         symbol: earning.symbol,
         // 财报日期，如果是盘后则调整为第二天
-        date: earning.time === 'time-after-hours' ? addOneDay(originalDate) : originalDate,
+        date: originalDate,
         marketCap: earning.marketCap ? earning.marketCap : 'N/A',
         fiscalQuarterEnding: earning.fiscalQuarterEnding ? earning.fiscalQuarterEnding : '',
         time: earning.time ? earning.time === 'time-pre-market' ? '盘前' : earning.time === 'time-after-hours' ? '盘后' : '' : '',
@@ -147,7 +147,7 @@ async function readData(date, list) {
             data = filterData(data, list);
         }
 
-        await sleep(50);
+        //await sleep(0);
         if (data.data !== null) {
             datas.push(data);
             console.log('Reading date', newDate, 'done');

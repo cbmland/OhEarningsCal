@@ -26,17 +26,23 @@ async function generateEarningsICSCalendar(date,list,filename) {
 
         const events = earningsData.map(entry => {
             const dateParts = entry.date.split('-').map(Number);
-            const start = [dateParts[0], dateParts[1], dateParts[2]];
+            let start;
+            if (entry.time === '盘后') {
+                start = [dateParts[0], dateParts[1], dateParts[2], 20, 0];
+            } else {
+                start = [dateParts[0], dateParts[1], dateParts[2], 12, 0];
+            }
             return {
                 title: `${entry.time} ${entry.symbol}(${entry.companyName})发布财报`,
                 description: `财务季度：${entry.fiscalQuarterEnding} \n公司：${entry.companyName} \n预计每股收益: ${entry.epsForecast}，当前市值: ${simplifyNumber(entry.marketCap)}。\n\n在股票App查看： stocks://?symbol=${entry.symbol} \n在富途查看：https://www.futunn.com/hk/stock/${entry.symbol}-US \n在老虎查看：https://www.laohu8.com/stock/${entry.symbol} \nTradingView：https://www.tradingview.com/symbols/${entry.symbol}/`,
                 start: start,
+                duration: { hours: 1, minutes: 0 }, // 持续时间
                 startInputType: 'utc', // 时区会有误差，但可以接受
                 status: 'CONFIRMED',
                 busyStatus: 'FREE',
                 alarms: [
                     { action: 'display', description: 'Reminder', trigger: { hours: 
-                        entry.time === '盘前' ?4:2, minutes: 0, before: true } }
+                        entry.time === '盘后' ? 8:2, minutes: 0, before: true } }
                 ]
             };
         });
