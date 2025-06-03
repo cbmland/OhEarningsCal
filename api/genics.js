@@ -53,12 +53,12 @@ async function generateEarningsICSCalendar(date,list,filename) {
             method: 'PUBLISH',
         };
 
-        createEvents(events,headerAttributes, (error, value) => {
+        createEvents(events,headerAttributes, async (error, value) => {
             if (error) {
                 console.error(error);
                 return;
             }
-            ensureDirectoryExists('./docs/ics/')
+            await ensureDirectoryExists('./docs/ics/');
             writeFileSync(`./docs/ics/${filename}.ics`, value);
             console.log(`Earnings calendar .ics file has been saved to ./docs/ics/${filename}.ics.`);
         });
