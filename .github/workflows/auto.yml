@@ -81,6 +81,7 @@ jobs:
       env:
         # 在源仓库的 Settings -> Secrets -> Actions 中设置 DEPLOY_KEY
         SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        REPO_STATIC: ${{ vars.REPO_STATIC }}
       run: |
         if [ "$ENVIRONMENT" = "production" ] && [ "$(date +%u)" = "3" ]; then
 
@@ -96,7 +97,7 @@ jobs:
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
             
             # 克隆目标仓库
-            git clone --depth 1 git@github.com:cbmland/CloudStatic.git target_repo
+            git clone --depth 1 git@github.com:${REPO_STATIC}.git target_repo
             
             
             # 复制构建产物到目标仓库
