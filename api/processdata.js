@@ -150,7 +150,7 @@ async function readData(date, list) {
         //await sleep(0);
         if (data.data !== null) {
             datas.push(data);
-            console.log('Reading date', newDate, 'done');
+            // console.log('Reading date', newDate, 'done');
         }
         newDate = addOneDay(newDate);
     }
@@ -180,7 +180,7 @@ async function fetchLocalDatas(date) {
     if (existsSync(filePath)) {
         return readFileSync(filePath, 'utf8');
     } else {
-        console.log('No data found for', date, ',skipped');
+        // console.log('No data found for', date, ',skipped');
         return;
     }
 };
