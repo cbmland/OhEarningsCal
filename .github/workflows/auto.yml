@@ -38,29 +38,31 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-        cache: 'npm'
 
-    - name: Generate package-lock.json
-      run: npm install --package-lock-only
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8
+        run_install: false
 
-    - name: Cache npm dependencies
+    - name: Cache pnpm dependencies
       uses: actions/cache@v4
-      id: npm-cache
+      id: pnpm-cache
       with:
         path: |
           **/node_modules
-          ~/.npm
-        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          ~/.pnpm-store
+        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
-          ${{ runner.os }}-npm-
+          ${{ runner.os }}-pnpm-
 
     - name: Install dependencies
       run: |
-        if [ "${{ steps.npm-cache.outputs.cache-hit }}" = "true" ]; then
+        if [ "${{ steps.pnpm-cache.outputs.cache-hit }}" = "true" ]; then
           echo "Using cached dependencies"
         else
           echo "Installing dependencies..."
-          npm ci
+          pnpm install --frozen-lockfile
         fi
 
     - name: Run fetchEarningsCalendarData script
