@@ -67,7 +67,6 @@ jobs:
     - name: Run genAllIcs script
       run: node ./api/github_gen.js
 
-
     # - name: Upload multiple files
     #   uses: actions/upload-artifact@v4
     #   with:
