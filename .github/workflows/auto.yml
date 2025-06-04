@@ -55,8 +55,13 @@ jobs:
           ${{ runner.os }}-npm-
 
     - name: Install dependencies
-      if: steps.npm-cache.outputs.cache-hit != 'true'
-      run: npm install
+      run: |
+        if [ "${{ steps.npm-cache.outputs.cache-hit }}" = "true" ]; then
+          echo "Using cached dependencies"
+        else
+          echo "Installing dependencies..."
+          npm ci
+        fi
 
     - name: Run fetchEarningsCalendarData script
       run: node ./api/github_get.js
