@@ -86,7 +86,7 @@ async function fetchEarningsData(date) {
 // 获取财报日历数据
 async function fetchEarningsCalendarData(date = today) {
     try {
-        let beforeDays = 1;
+        let beforeDays = 7;
         let alfterDays = 30;
         let newDate = date;
 
