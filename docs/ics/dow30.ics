@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:I2XASx1g_qNpH4ZrsY49w
+UID:CyVffULV0-JNp6KRS0xk3
 SUMMARY:盘后 NKE(耐克)发布财报
-DTSTAMP:20250604T071321Z
+DTSTAMP:20250604T071833Z
 DTSTART:20250626T200000Z
-DESCRIPTION:财务季度：May/2025 \n公司：耐克 \n预计每股收益: $0.11，当前市值: 90.90B。\n\n在股票App查看
+DESCRIPTION:财务季度：May/2025 \n公司：耐克 \n预计每股收益: $0.11，当前市值: 89.40B。\n\n在股票App查看
 	： stocks://?symbol=NKE \n在富途查看：https://www.futunn.com/hk/stock/NKE-US \n在老
 	虎查看：https://www.laohu8.com/stock/NKE \nTradingView：https://www.tradingview
 	.com/symbols/NKE/
@@ -24,122 +24,14 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:phxkCMvUeITMZV7gKX9Ke
+UID:ivwS0UEAPcKbhTUVJQNOC
 SUMMARY: WBA(沃尔格林博姿联合公司)发布财报
-DTSTAMP:20250604T071321Z
+DTSTAMP:20250604T071833Z
 DTSTART:20250626T120000Z
-DESCRIPTION:财务季度：May/2025 \n公司：沃尔格林博姿联合公司 \n预计每股收益: $0.34，当前市值: 9.69B。\n\n在
+DESCRIPTION:财务季度：May/2025 \n公司：沃尔格林博姿联合公司 \n预计每股收益: $0.34，当前市值: 9.73B。\n\n在
 	股票App查看： stocks://?symbol=WBA \n在富途查看：https://www.futunn.com/hk/stock/WBA-
 	US \n在老虎查看：https://www.laohu8.com/stock/WBA \nTradingView：https://www.trad
 	ingview.com/symbols/WBA/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:RxZbYBSmHkgs1GBLHTdjb
-SUMMARY:盘前 JPM(摩根大通)发布财报
-DTSTAMP:20250604T071321Z
-DTSTART:20250714T120000Z
-DESCRIPTION:财务季度：Jun/2025 \n公司：摩根大通 \n预计每股收益: $4.45，当前市值: 0.74T。\n\n在股票App查
-	看： stocks://?symbol=JPM \n在富途查看：https://www.futunn.com/hk/stock/JPM-US \n在
-	老虎查看：https://www.laohu8.com/stock/JPM \nTradingView：https://www.tradingvie
-	w.com/symbols/JPM/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:JBxD6e0gNJavEtmIi5e7t
-SUMMARY: UNH(联合健康保险)发布财报
-DTSTAMP:20250604T071321Z
-DTSTART:20250715T120000Z
-DESCRIPTION:财务季度：Jun/2025 \n公司：联合健康保险 \n预计每股收益: $5.30，当前市值: 0.28T。\n\n在股票Ap
-	p查看： stocks://?symbol=UNH \n在富途查看：https://www.futunn.com/hk/stock/UNH-US \
-	n在老虎查看：https://www.laohu8.com/stock/UNH \nTradingView：https://www.tradingv
-	iew.com/symbols/UNH/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:Uq6I8NKt-PoP2OkIurl2b
-SUMMARY:盘前 JNJ(强生)发布财报
-DTSTAMP:20250604T071321Z
-DTSTART:20250716T120000Z
-DESCRIPTION:财务季度：Jun/2025 \n公司：强生 \n预计每股收益: $2.65，当前市值: 0.37T。\n\n在股票App查看：
-	 stocks://?symbol=JNJ \n在富途查看：https://www.futunn.com/hk/stock/JNJ-US \n在老虎
-	查看：https://www.laohu8.com/stock/JNJ \nTradingView：https://www.tradingview.
-	com/symbols/JNJ/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1vXXCG0BMWu2VD81Qitzn
-SUMMARY:盘前 GS(高盛)发布财报
-DTSTAMP:20250604T071321Z
-DTSTART:20250716T120000Z
-DESCRIPTION:财务季度：Jun/2025 \n公司：高盛 \n预计每股收益: $9.82，当前市值: 0.18T。\n\n在股票App查看：
-	 stocks://?symbol=GS \n在富途查看：https://www.futunn.com/hk/stock/GS-US \n在老虎查看
-	：https://www.laohu8.com/stock/GS \nTradingView：https://www.tradingview.com
-	/symbols/GS/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:j25QEW3RD3gEx38TEDBlW
-SUMMARY: AXP(美国运通)发布财报
-DTSTAMP:20250604T071321Z
-DTSTART:20250718T120000Z
-DESCRIPTION:财务季度：Jun/2025 \n公司：美国运通 \n预计每股收益: $3.84，当前市值: 0.21T。\n\n在股票App查
-	看： stocks://?symbol=AXP \n在富途查看：https://www.futunn.com/hk/stock/AXP-US \n在
-	老虎查看：https://www.laohu8.com/stock/AXP \nTradingView：https://www.tradingvie
-	w.com/symbols/AXP/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:J1A0sr5JrgrZStHjGkqTj
-SUMMARY: TRV(旅行者保险)发布财报
-DTSTAMP:20250604T071321Z
-DTSTART:20250718T120000Z
-DESCRIPTION:财务季度：Jun/2025 \n公司：旅行者保险 \n预计每股收益: $3.52，当前市值: 62.60B。\n\n在股票Ap
-	p查看： stocks://?symbol=TRV \n在富途查看：https://www.futunn.com/hk/stock/TRV-US \
-	n在老虎查看：https://www.laohu8.com/stock/TRV \nTradingView：https://www.tradingv
-	iew.com/symbols/TRV/
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 DURATION:PT1H
