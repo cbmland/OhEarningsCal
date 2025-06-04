@@ -38,32 +38,22 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
 
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v2
-      with:
-        version: 8
-        run_install: false
-
-    - name: Cache pnpm dependencies
+    - name: Cache npm dependencies
       uses: actions/cache@v4
-      id: pnpm-cache
+      id: npm-cache
       with:
         path: |
           **/node_modules
-          ~/.pnpm-store
-        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          ~/.npm
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
-          ${{ runner.os }}-pnpm-
+          ${{ runner.os }}-npm-
 
     - name: Install dependencies
-      run: |
-        if [ "${{ steps.pnpm-cache.outputs.cache-hit }}" = "true" ]; then
-          echo "Using cached dependencies"
-        else
-          echo "Installing dependencies..."
-          pnpm install --frozen-lockfile
-        fi
+      if: steps.npm-cache.outputs.cache-hit != 'true'
+      run: npm install
 
     - name: Run fetchEarningsCalendarData script
       run: node ./api/github_get.js
