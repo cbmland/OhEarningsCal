@@ -6,119 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:89QGOMAJ3BbiI18kMGszM
-SUMMARY: NVDA(英伟达)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250528T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：英伟达 \n预计每股收益: $0.80，当前市值: 3.45T。\n\n在股票App查看
-	： stocks://?symbol=NVDA \n在富途查看：https://www.futunn.com/hk/stock/NVDA-US \n
-	在老虎查看：https://www.laohu8.com/stock/NVDA \nTradingView：https://www.tradingv
-	iew.com/symbols/NVDA/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:VOCE_koq57ko71i9t1esN
-SUMMARY: SNPS(新思科技)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250528T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：新思科技 \n预计每股收益: $2.40，当前市值: 72.30B。\n\n在股票App
-	查看： stocks://?symbol=SNPS \n在富途查看：https://www.futunn.com/hk/stock/SNPS-US 
-	\n在老虎查看：https://www.laohu8.com/stock/SNPS \nTradingView：https://www.tradin
-	gview.com/symbols/SNPS/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tCyovlBkpN0uaep199EmY
-SUMMARY: COST(好市多)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250529T120000Z
-DESCRIPTION:财务季度：May/2025 \n公司：好市多 \n预计每股收益: $4.25，当前市值: 0.47T。\n\n在股票App查看
-	： stocks://?symbol=COST \n在富途查看：https://www.futunn.com/hk/stock/COST-US \n
-	在老虎查看：https://www.laohu8.com/stock/COST \nTradingView：https://www.tradingv
-	iew.com/symbols/COST/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:-hkJ2mfDNT_ZWzpe5zPgP
-SUMMARY: MRVL(美满电子科技)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250529T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：美满电子科技 \n预计每股收益: $0.44，当前市值: 53.80B。\n\n在股票A
-	pp查看： stocks://?symbol=MRVL \n在富途查看：https://www.futunn.com/hk/stock/MRVL-U
-	S \n在老虎查看：https://www.laohu8.com/stock/MRVL \nTradingView：https://www.trad
-	ingview.com/symbols/MRVL/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:qssMRYuiJU8_JE9XmzJwW
-SUMMARY: ZS(Zscaler)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250529T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：Zscaler \n预计每股收益: ($0.03)，当前市值: 45.90B。\n\n在
-	股票App查看： stocks://?symbol=ZS \n在富途查看：https://www.futunn.com/hk/stock/ZS-US
-	 \n在老虎查看：https://www.laohu8.com/stock/ZS \nTradingView：https://www.trading
-	view.com/symbols/ZS/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:hyPjmlJ3BMAy1DiFcH887
-SUMMARY: CRWD(CrowdStrike)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250603T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：CrowdStrike \n预计每股收益: ($0.28)，当前市值: 0.12T。\n
-	\n在股票App查看： stocks://?symbol=CRWD \n在富途查看：https://www.futunn.com/hk/stock/
-	CRWD-US \n在老虎查看：https://www.laohu8.com/stock/CRWD \nTradingView：https://ww
-	w.tradingview.com/symbols/CRWD/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:uzaX9S0eNdK8xohyYqUXK
-SUMMARY:盘前 DLTR(美元树)发布财报
-DTSTAMP:20250604T164224Z
+UID:la9fmw8YNuu3164fpSnVR
+SUMMARY: DLTR(美元树)发布财报
+DTSTAMP:20250611T044617Z
 DTSTART:20250604T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：美元树 \n预计每股收益: $1.19，当前市值: 20.80B。\n\n在股票App查
+DESCRIPTION:财务季度：Apr/2025 \n公司：美元树 \n预计每股收益: $1.19，当前市值: 19.60B。\n\n在股票App查
 	看： stocks://?symbol=DLTR \n在富途查看：https://www.futunn.com/hk/stock/DLTR-US \
 	n在老虎查看：https://www.laohu8.com/stock/DLTR \nTradingView：https://www.trading
 	view.com/symbols/DLTR/
@@ -132,11 +24,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ArSrW2QVQN122WCIotJMY
-SUMMARY:盘后 AVGO(博通有限)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250605T200000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：博通有限 \n预计每股收益: $1.35，当前市值: 1.21T。\n\n在股票App查
+UID:s47JcLZaFGI2eYVt6CZ3y
+SUMMARY: AVGO(博通有限)发布财报
+DTSTAMP:20250611T044617Z
+DTSTART:20250605T120000Z
+DESCRIPTION:财务季度：Apr/2025 \n公司：博通有限 \n预计每股收益: $1.35，当前市值: 1.15T。\n\n在股票App查
 	看： stocks://?symbol=AVGO \n在富途查看：https://www.futunn.com/hk/stock/AVGO-US \
 	n在老虎查看：https://www.laohu8.com/stock/AVGO \nTradingView：https://www.trading
 	view.com/symbols/AVGO/
@@ -146,15 +38,15 @@ DURATION:PT1H
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder
-TRIGGER:-PT8H
+TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jjtbXNPB9nfIM32GWJDij
-SUMMARY:盘后 LULU(露露柠檬)发布财报
-DTSTAMP:20250604T164224Z
-DTSTART:20250605T200000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：露露柠檬 \n预计每股收益: $2.59，当前市值: 38.70B。\n\n在股票App
+UID:FfrDr9BFrQisUWqgsjbCv
+SUMMARY: LULU(露露柠檬)发布财报
+DTSTAMP:20250611T044617Z
+DTSTART:20250605T120000Z
+DESCRIPTION:财务季度：Apr/2025 \n公司：露露柠檬 \n预计每股收益: $2.59，当前市值: 29.70B。\n\n在股票App
 	查看： stocks://?symbol=LULU \n在富途查看：https://www.futunn.com/hk/stock/LULU-US 
 	\n在老虎查看：https://www.laohu8.com/stock/LULU \nTradingView：https://www.tradin
 	gview.com/symbols/LULU/
@@ -164,13 +56,13 @@ DURATION:PT1H
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder
-TRIGGER:-PT8H
+TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:uYiED5xTxXwMURraCry6S
+UID:QNoIIGnXXdkWsv45u_N4t
 SUMMARY:盘后 ADBE(Adobe)发布财报
-DTSTAMP:20250604T164224Z
+DTSTAMP:20250611T044617Z
 DTSTART:20250612T200000Z
 DESCRIPTION:财务季度：May/2025 \n公司：Adobe \n预计每股收益: $4.01，当前市值: 0.18T。\n\n在股票App
 	查看： stocks://?symbol=ADBE \n在富途查看：https://www.futunn.com/hk/stock/ADBE-US 
@@ -186,11 +78,11 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:EgtinrgX1ZyxpmcJPJpkb
+UID:7hEj0yZTXlfbRFT7z7BFC
 SUMMARY:盘后 MU(美光科技)发布财报
-DTSTAMP:20250604T164224Z
+DTSTAMP:20250611T044617Z
 DTSTART:20250625T200000Z
-DESCRIPTION:财务季度：May/2025 \n公司：美光科技 \n预计每股收益: $1.41，当前市值: 0.11T。\n\n在股票App查
+DESCRIPTION:财务季度：May/2025 \n公司：美光科技 \n预计每股收益: $1.41，当前市值: 0.12T。\n\n在股票App查
 	看： stocks://?symbol=MU \n在富途查看：https://www.futunn.com/hk/stock/MU-US \n在老虎
 	查看：https://www.laohu8.com/stock/MU \nTradingView：https://www.tradingview.c
 	om/symbols/MU/
@@ -204,14 +96,14 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bpSsn_ih3KjGJfzod83oq
+UID:qyctB9QG4JH64dpczD1Gj
 SUMMARY: PAYX(沛齐)发布财报
-DTSTAMP:20250604T164224Z
+DTSTAMP:20250611T044617Z
 DTSTART:20250625T120000Z
-DESCRIPTION:财务季度：May/2025 \n公司：沛齐 \n预计每股收益: $1.20，当前市值: 57B。\n\n在股票App查看： s
-	tocks://?symbol=PAYX \n在富途查看：https://www.futunn.com/hk/stock/PAYX-US \n在老虎
-	查看：https://www.laohu8.com/stock/PAYX \nTradingView：https://www.tradingview
-	.com/symbols/PAYX/
+DESCRIPTION:财务季度：May/2025 \n公司：沛齐 \n预计每股收益: $1.20，当前市值: 56.50B。\n\n在股票App查看
+	： stocks://?symbol=PAYX \n在富途查看：https://www.futunn.com/hk/stock/PAYX-US \n
+	在老虎查看：https://www.laohu8.com/stock/PAYX \nTradingView：https://www.tradingv
+	iew.com/symbols/PAYX/
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 DURATION:PT1H
@@ -222,11 +114,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:vFpTOfKGZQG_N6adKdNOl
-SUMMARY: WBA(沃尔格林联合博姿)发布财报
-DTSTAMP:20250604T164224Z
+UID:5jlIBARpZifN0UitrkKKt
+SUMMARY:盘前 WBA(沃尔格林联合博姿)发布财报
+DTSTAMP:20250611T044617Z
 DTSTART:20250626T120000Z
-DESCRIPTION:财务季度：May/2025 \n公司：沃尔格林联合博姿 \n预计每股收益: $0.34，当前市值: 9.71B。\n\n在股票
+DESCRIPTION:财务季度：May/2025 \n公司：沃尔格林联合博姿 \n预计每股收益: $0.34，当前市值: 9.80B。\n\n在股票
 	App查看： stocks://?symbol=WBA \n在富途查看：https://www.futunn.com/hk/stock/WBA-US
 	 \n在老虎查看：https://www.laohu8.com/stock/WBA \nTradingView：https://www.tradin
 	gview.com/symbols/WBA/
