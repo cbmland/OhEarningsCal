@@ -6,65 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:SQ0ZUha4C0hsm7P-djgjS
-SUMMARY: DLTR(美元树)发布财报
-DTSTAMP:20250611T164533Z
-DTSTART:20250604T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：美元树 \n预计每股收益: $1.19，当前市值: 19.40B。\n\n在股票App查
-	看： stocks://?symbol=DLTR \n在富途查看：https://www.futunn.com/hk/stock/DLTR-US \
-	n在老虎查看：https://www.laohu8.com/stock/DLTR \nTradingView：https://www.trading
-	view.com/symbols/DLTR/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:i5rdS-Uz0o6IOkGmXZHJ9
-SUMMARY: AVGO(博通有限)发布财报
-DTSTAMP:20250611T164533Z
-DTSTART:20250605T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：博通有限 \n预计每股收益: $1.35，当前市值: 1.15T。\n\n在股票App查
-	看： stocks://?symbol=AVGO \n在富途查看：https://www.futunn.com/hk/stock/AVGO-US \
-	n在老虎查看：https://www.laohu8.com/stock/AVGO \nTradingView：https://www.trading
-	view.com/symbols/AVGO/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:t03v3XV7rlU_JMbmZiknV
-SUMMARY: LULU(露露柠檬)发布财报
-DTSTAMP:20250611T164533Z
-DTSTART:20250605T120000Z
-DESCRIPTION:财务季度：Apr/2025 \n公司：露露柠檬 \n预计每股收益: $2.59，当前市值: 29.70B。\n\n在股票App
-	查看： stocks://?symbol=LULU \n在富途查看：https://www.futunn.com/hk/stock/LULU-US 
-	\n在老虎查看：https://www.laohu8.com/stock/LULU \nTradingView：https://www.tradin
-	gview.com/symbols/LULU/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8Eww0c0wi4500J1ZrLoXf
-SUMMARY:盘后 ADBE(Adobe)发布财报
-DTSTAMP:20250611T164533Z
-DTSTART:20250612T200000Z
-DESCRIPTION:财务季度：May/2025 \n公司：Adobe \n预计每股收益: $4.01，当前市值: 0.18T。\n\n在股票App
+UID:8bV74tcVoPK5-IbtCT4op
+SUMMARY: ADBE(Adobe)发布财报
+DTSTAMP:20250618T044532Z
+DTSTART:20250612T120000Z
+DESCRIPTION:财务季度：May/2025 \n公司：Adobe \n预计每股收益: $4.01，当前市值: 0.17T。\n\n在股票App
 	查看： stocks://?symbol=ADBE \n在富途查看：https://www.futunn.com/hk/stock/ADBE-US 
 	\n在老虎查看：https://www.laohu8.com/stock/ADBE \nTradingView：https://www.tradin
 	gview.com/symbols/ADBE/
@@ -74,13 +20,13 @@ DURATION:PT1H
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder
-TRIGGER:-PT8H
+TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:DnGlH6TofCIWsDFL-vFYI
+UID:BQgZ1SbFk86S0IZbnMPwg
 SUMMARY:盘后 MU(美光科技)发布财报
-DTSTAMP:20250611T164533Z
+DTSTAMP:20250618T044532Z
 DTSTART:20250625T200000Z
 DESCRIPTION:财务季度：May/2025 \n公司：美光科技 \n预计每股收益: $1.41，当前市值: 0.13T。\n\n在股票App查
 	看： stocks://?symbol=MU \n在富途查看：https://www.futunn.com/hk/stock/MU-US \n在老虎
@@ -96,11 +42,11 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:25SrS5PSlNtIKBgO9r77m
-SUMMARY: PAYX(沛齐)发布财报
-DTSTAMP:20250611T164533Z
+UID:eKXZWBwVQGicHGSYLQjLp
+SUMMARY:盘前 PAYX(沛齐)发布财报
+DTSTAMP:20250618T044532Z
 DTSTART:20250625T120000Z
-DESCRIPTION:财务季度：May/2025 \n公司：沛齐 \n预计每股收益: $1.20，当前市值: 55.90B。\n\n在股票App查看
+DESCRIPTION:财务季度：May/2025 \n公司：沛齐 \n预计每股收益: $1.19，当前市值: 55.40B。\n\n在股票App查看
 	： stocks://?symbol=PAYX \n在富途查看：https://www.futunn.com/hk/stock/PAYX-US \n
 	在老虎查看：https://www.laohu8.com/stock/PAYX \nTradingView：https://www.tradingv
 	iew.com/symbols/PAYX/
@@ -114,11 +60,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:efctM5WqJdTcYDugtGmds
+UID:qMUbG3NGspinZPJd_LfEq
 SUMMARY:盘前 WBA(沃尔格林联合博姿)发布财报
-DTSTAMP:20250611T164533Z
+DTSTAMP:20250618T044532Z
 DTSTART:20250626T120000Z
-DESCRIPTION:财务季度：May/2025 \n公司：沃尔格林联合博姿 \n预计每股收益: $0.34，当前市值: 9.81B。\n\n在股票
+DESCRIPTION:财务季度：May/2025 \n公司：沃尔格林联合博姿 \n预计每股收益: $0.34，当前市值: 9.86B。\n\n在股票
 	App查看： stocks://?symbol=WBA \n在富途查看：https://www.futunn.com/hk/stock/WBA-US
 	 \n在老虎查看：https://www.laohu8.com/stock/WBA \nTradingView：https://www.tradin
 	gview.com/symbols/WBA/
