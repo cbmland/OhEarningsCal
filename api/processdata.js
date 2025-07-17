@@ -147,7 +147,7 @@ async function readData(date, list) {
             data = filterData(data, list);
         }
 
-        //await sleep(0);
+        await sleep(10);
         if (data.data !== null) {
             datas.push(data);
             // console.log('Reading date', newDate, 'done');
