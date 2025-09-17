@@ -6,9 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:Y4EQJ_laFj3Hllcx5K0rk
+UID:4O-fmRxAaJbhwF8dpOiGg
 SUMMARY:ADBE(Adobe) 发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250911T120000Z
 DESCRIPTION:财务季度：Aug/2025 \n公司：Adobe \n预计每股收益: $4.21，当前市值: 0.15T。\n\n在富途查看：
 	https://www.futunn.com/hk/stock/ADBE-US \n在老虎查看：https://www.laohu8.com/sto
@@ -23,28 +23,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:wQrnbjpCfmX3MaCGqhoAY
-SUMMARY:NBIS(NEBIUS) 发布财报
-DTSTAMP:20250917T043717Z
-DTSTART:20250916T120000Z
-DESCRIPTION:财务季度：Jun/2025 \n公司：NEBIUS \n预计每股收益: ($0.40)，当前市值: 21.70B。\n\n在富
-	途查看：https://www.futunn.com/hk/stock/NBIS-US \n在老虎查看：https://www.laohu8.com
-	/stock/NBIS \nTradingView：https://www.tradingview.com/symbols/NBIS/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:aV5_lzCbbFi13cTfqQkht
+UID:tNgqQo-DG5_wmEd4eOVEl
 SUMMARY:FDX(联邦快递) 盘后发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250918T200000Z
-DESCRIPTION:财务季度：Aug/2025 \n公司：联邦快递 \n预计每股收益: $3.65，当前市值: 53.20B。\n\n在富途查看：
+DESCRIPTION:财务季度：Aug/2025 \n公司：联邦快递 \n预计每股收益: $3.65，当前市值: 53.70B。\n\n在富途查看：
 	https://www.futunn.com/hk/stock/FDX-US \n在老虎查看：https://www.laohu8.com/stoc
 	k/FDX \nTradingView：https://www.tradingview.com/symbols/FDX/
 STATUS:CONFIRMED
@@ -57,11 +40,11 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lxYVOyjojClU-kQt8ZP9-
+UID:S97UailQRS02eL6vOfFvG
 SUMMARY:MU(美光科技) 盘后发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250923T200000Z
-DESCRIPTION:财务季度：Aug/2025 \n公司：美光科技 \n预计每股收益: $2.67，当前市值: 0.18T。\n\n在富途查看：h
+DESCRIPTION:财务季度：Aug/2025 \n公司：美光科技 \n预计每股收益: $2.69，当前市值: 0.18T。\n\n在富途查看：h
 	ttps://www.futunn.com/hk/stock/MU-US \n在老虎查看：https://www.laohu8.com/stock/
 	MU \nTradingView：https://www.tradingview.com/symbols/MU/
 STATUS:CONFIRMED
@@ -74,11 +57,28 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:zL7HVpkbB3_ByrHCyt6xe
+UID:fu9RXKvySb-PnWZt9Tz1D
+SUMMARY:NBIS(NEBIUS) 发布财报
+DTSTAMP:20250917T164056Z
+DTSTART:20250923T120000Z
+DESCRIPTION:财务季度：Jun/2025 \n公司：NEBIUS \n预计每股收益: ($0.40)，当前市值: 21.30B。\n\n在富
+	途查看：https://www.futunn.com/hk/stock/NBIS-US \n在老虎查看：https://www.laohu8.com
+	/stock/NBIS \nTradingView：https://www.tradingview.com/symbols/NBIS/
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+DURATION:PT1H
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nLkuUPEUExPFToVWfEcNY
 SUMMARY:AIR(AAR公司) 盘后发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250923T200000Z
-DESCRIPTION:财务季度：Aug/2025 \n公司：AAR公司 \n预计每股收益: $0.98，当前市值: 2.67B。\n\n在富途查看：
+DESCRIPTION:财务季度：Aug/2025 \n公司：AAR公司 \n预计每股收益: $0.98，当前市值: 2.72B。\n\n在富途查看：
 	https://www.futunn.com/hk/stock/AIR-US \n在老虎查看：https://www.laohu8.com/stoc
 	k/AIR \nTradingView：https://www.tradingview.com/symbols/AIR/
 STATUS:CONFIRMED
@@ -91,11 +91,11 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:oUkakeSjPPyY4XxQNoJiq
+UID:98CKE5fyiWWqF6371ewds
 SUMMARY:COST(好市多) 盘后发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250925T200000Z
-DESCRIPTION:财务季度：Aug/2025 \n公司：好市多 \n预计每股收益: $5.79，当前市值: 0.43T。\n\n在富途查看：ht
+DESCRIPTION:财务季度：Aug/2025 \n公司：好市多 \n预计每股收益: $5.79，当前市值: 0.42T。\n\n在富途查看：ht
 	tps://www.futunn.com/hk/stock/COST-US \n在老虎查看：https://www.laohu8.com/stock
 	/COST \nTradingView：https://www.tradingview.com/symbols/COST/
 STATUS:CONFIRMED
@@ -108,9 +108,9 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:RfdkjGgS6dctgGQ64fXs-
+UID:jWnvH2EKVC8VzhrigWa3U
 SUMMARY:ACN(埃森哲) 盘前发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250925T120000Z
 DESCRIPTION:财务季度：Aug/2025 \n公司：埃森哲 \n预计每股收益: $2.98，当前市值: 0.15T。\n\n在富途查看：ht
 	tps://www.futunn.com/hk/stock/ACN-US \n在老虎查看：https://www.laohu8.com/stock/
@@ -125,11 +125,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cx_Hgu37OSnOqxruALsCN
+UID:Y5ZJMaTw3bnKYrmchtwDh
 SUMMARY:CCL(嘉年华邮轮) 盘前发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250929T120000Z
-DESCRIPTION:财务季度：Aug/2025 \n公司：嘉年华邮轮 \n预计每股收益: $1.31，当前市值: 42.40B。\n\n在富途查看
+DESCRIPTION:财务季度：Aug/2025 \n公司：嘉年华邮轮 \n预计每股收益: $1.31，当前市值: 42.30B。\n\n在富途查看
 	：https://www.futunn.com/hk/stock/CCL-US \n在老虎查看：https://www.laohu8.com/sto
 	ck/CCL \nTradingView：https://www.tradingview.com/symbols/CCL/
 STATUS:CONFIRMED
@@ -142,9 +142,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:SAgDLvdPX5kFrCFAS_4Ph
+UID:UtPxIKuR57ID125DoSYXv
 SUMMARY:NKE(耐克) 盘后发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20250930T200000Z
 DESCRIPTION:财务季度：Aug/2025 \n公司：耐克 \n预计每股收益: $0.28，当前市值: 0.11T。\n\n在富途查看：htt
 	ps://www.futunn.com/hk/stock/NKE-US \n在老虎查看：https://www.laohu8.com/stock/N
@@ -159,11 +159,11 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:qBs15rPaxTCe2mS712zpb
+UID:HOFhn_VY5ZKJDj0rH3Rv0
 SUMMARY:LEVI(李维斯) 发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20251001T120000Z
-DESCRIPTION:财务季度：Aug/2025 \n公司：李维斯 \n预计每股收益: $0.31，当前市值: 8.94B。\n\n在富途查看：ht
+DESCRIPTION:财务季度：Aug/2025 \n公司：李维斯 \n预计每股收益: $0.31，当前市值: 8.90B。\n\n在富途查看：ht
 	tps://www.futunn.com/hk/stock/LEVI-US \n在老虎查看：https://www.laohu8.com/stock
 	/LEVI \nTradingView：https://www.tradingview.com/symbols/LEVI/
 STATUS:CONFIRMED
@@ -176,9 +176,9 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sjiAu1XCOaFuTqE5DUUl3
+UID:ihcwNuX-TqNEzgRZgu9XZ
 SUMMARY:PEP(百事可乐) 盘前发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20251009T120000Z
 DESCRIPTION:财务季度：Sep/2025 \n公司：百事可乐 \n预计每股收益: $2.26，当前市值: 0.19T。\n\n在富途查看：h
 	ttps://www.futunn.com/hk/stock/PEP-US \n在老虎查看：https://www.laohu8.com/stock
@@ -193,30 +193,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7OG6vlBPmrjNc81uryK9Z
+UID:rbsra9YfAPo2bb0CXKUmG
 SUMMARY:DAL(达美航空) 发布财报
-DTSTAMP:20250917T043717Z
+DTSTAMP:20250917T164056Z
 DTSTART:20251009T120000Z
-DESCRIPTION:财务季度：Sep/2025 \n公司：达美航空 \n预计每股收益: $1.52，当前市值: 38.10B。\n\n在富途查看：
+DESCRIPTION:财务季度：Sep/2025 \n公司：达美航空 \n预计每股收益: $1.56，当前市值: 37.80B。\n\n在富途查看：
 	https://www.futunn.com/hk/stock/DAL-US \n在老虎查看：https://www.laohu8.com/stoc
 	k/DAL \nTradingView：https://www.tradingview.com/symbols/DAL/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sclzhqMa7A8OjFfkyaZY4
-SUMMARY:DPZ(达美乐比萨) 发布财报
-DTSTAMP:20250917T043717Z
-DTSTART:20251009T120000Z
-DESCRIPTION:财务季度：Sep/2025 \n公司：达美乐比萨 \n预计每股收益: $3.98，当前市值: 15.30B。\n\n在富途查看
-	：https://www.futunn.com/hk/stock/DPZ-US \n在老虎查看：https://www.laohu8.com/sto
-	ck/DPZ \nTradingView：https://www.tradingview.com/symbols/DPZ/
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 DURATION:PT1H
