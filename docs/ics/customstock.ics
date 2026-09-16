@@ -6,9 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Earnings Calendar 财报日历
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:h8-peC46Um_WcY75CQeqz
+UID:N_Pv3g0mqz3a4lBSKBWJ4
 SUMMARY:ORCL(甲骨文) 发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20260910T120000Z
 DESCRIPTION:财务季度：Aug/2026 \n公司：甲骨文 \n预计每股收益: $1.39，当前市值: 0.42T。\n\n在富途查看：ht
 	tps://www.futunn.com/hk/stock/ORCL-US \n在老虎查看：https://www.laohu8.com/stock
@@ -23,11 +23,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:FXTpXmToQAgU5NFe9BX1d
+UID:LuG4cj2tNWnBLtHwjrnwv
 SUMMARY:ADBE(Adobe) 发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20260910T120000Z
-DESCRIPTION:财务季度：Aug/2026 \n公司：Adobe \n预计每股收益: $4.86，当前市值: 0.11T。\n\n在富途查看：
+DESCRIPTION:财务季度：Aug/2026 \n公司：Adobe \n预计每股收益: $4.86，当前市值: 0.10T。\n\n在富途查看：
 	https://www.futunn.com/hk/stock/ADBE-US \n在老虎查看：https://www.laohu8.com/sto
 	ck/ADBE \nTradingView：https://www.tradingview.com/symbols/ADBE/
 STATUS:CONFIRMED
@@ -40,11 +40,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:Xy-0hBn0dhhlJrv8txmq4
+UID:V_VF3RmxHOD3ID3y5XwSs
 SUMMARY:AIR(AAR公司) 发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20260922T120000Z
-DESCRIPTION:财务季度：Aug/2026 \n公司：AAR公司 \n预计每股收益: ，当前市值: 4.83B。\n\n在富途查看：https
+DESCRIPTION:财务季度：Aug/2026 \n公司：AAR公司 \n预计每股收益: ，当前市值: 4.67B。\n\n在富途查看：https
 	://www.futunn.com/hk/stock/AIR-US \n在老虎查看：https://www.laohu8.com/stock/AIR
 	 \nTradingView：https://www.tradingview.com/symbols/AIR/
 STATUS:CONFIRMED
@@ -57,11 +57,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8y_M7czZ2fSv5E-94U8Mp
+UID:n3dI0uE6E0Jntd7pmabzV
 SUMMARY:COST(好市多) 盘后发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20260924T200000Z
-DESCRIPTION:财务季度：Aug/2026 \n公司：好市多 \n预计每股收益: $6.48，当前市值: 0.41T。\n\n在富途查看：ht
+DESCRIPTION:财务季度：Aug/2026 \n公司：好市多 \n预计每股收益: $6.48，当前市值: 0.40T。\n\n在富途查看：ht
 	tps://www.futunn.com/hk/stock/COST-US \n在老虎查看：https://www.laohu8.com/stock
 	/COST \nTradingView：https://www.tradingview.com/symbols/COST/
 STATUS:CONFIRMED
@@ -74,11 +74,28 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:Y7RuZv7OPjYhj6jPyOrBd
+UID:MdO2QkErRg_Sxq4_FjbR-
+SUMMARY:CCL(嘉年华邮轮) 盘前发布财报
+DTSTAMP:20260916T193704Z
+DTSTART:20260929T120000Z
+DESCRIPTION:财务季度：Aug/2026 \n公司：嘉年华邮轮 \n预计每股收益: $1.36，当前市值: 30.30B。\n\n在富途查看
+	：https://www.futunn.com/hk/stock/CCL-US \n在老虎查看：https://www.laohu8.com/sto
+	ck/CCL \nTradingView：https://www.tradingview.com/symbols/CCL/
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+DURATION:PT1H
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jFBD_2E3i6piOyZ5qmX1I
 SUMMARY:MU(美光科技) 盘后发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20260930T200000Z
-DESCRIPTION:财务季度：Aug/2026 \n公司：美光科技 \n预计每股收益: $31.17，当前市值: 1.04T。\n\n在富途查看：
+DESCRIPTION:财务季度：Aug/2026 \n公司：美光科技 \n预计每股收益: $31.17，当前市值: 1.05T。\n\n在富途查看：
 	https://www.futunn.com/hk/stock/MU-US \n在老虎查看：https://www.laohu8.com/stock
 	/MU \nTradingView：https://www.tradingview.com/symbols/MU/
 STATUS:CONFIRMED
@@ -91,13 +108,13 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:TZcGDkoHo9VwkmzLt-48R
+UID:PABaGz1Zui9f081vtmpen
 SUMMARY:NKE(耐克) 盘后发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20261001T200000Z
-DESCRIPTION:财务季度：Aug/2026 \n公司：耐克 \n预计每股收益: $0.45，当前市值: 55B。\n\n在富途查看：https
-	://www.futunn.com/hk/stock/NKE-US \n在老虎查看：https://www.laohu8.com/stock/NKE
-	 \nTradingView：https://www.tradingview.com/symbols/NKE/
+DESCRIPTION:财务季度：Aug/2026 \n公司：耐克 \n预计每股收益: $0.44，当前市值: 53.70B。\n\n在富途查看：ht
+	tps://www.futunn.com/hk/stock/NKE-US \n在老虎查看：https://www.laohu8.com/stock/
+	NKE \nTradingView：https://www.tradingview.com/symbols/NKE/
 STATUS:CONFIRMED
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 DURATION:PT1H
@@ -108,9 +125,9 @@ TRIGGER:-PT8H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:kQ7xkntYJCCu_2eEHtXNy
+UID:_4LBlH4hlsbXrSHujxIS5
 SUMMARY:ACN(埃森哲) 盘前发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20261001T120000Z
 DESCRIPTION:财务季度：Aug/2026 \n公司：埃森哲 \n预计每股收益: $3.19，当前市值: 0.13T。\n\n在富途查看：ht
 	tps://www.futunn.com/hk/stock/ACN-US \n在老虎查看：https://www.laohu8.com/stock/
@@ -125,28 +142,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:LkqIizo04Ois-d6d4C8JU
-SUMMARY:CCL(嘉年华邮轮) 发布财报
-DTSTAMP:20260916T092251Z
-DTSTART:20261005T120000Z
-DESCRIPTION:财务季度：Aug/2026 \n公司：嘉年华邮轮 \n预计每股收益: $1.36，当前市值: 30.90B。\n\n在富途查看
-	：https://www.futunn.com/hk/stock/CCL-US \n在老虎查看：https://www.laohu8.com/sto
-	ck/CCL \nTradingView：https://www.tradingview.com/symbols/CCL/
-STATUS:CONFIRMED
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-DURATION:PT1H
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tKP4A0RY7-XS3EQVcFgbD
+UID:jxhJFXpRLHx4hYlBlTcP_
 SUMMARY:PEP(百事可乐) 盘前发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20261008T120000Z
-DESCRIPTION:财务季度：Sep/2026 \n公司：百事可乐 \n预计每股收益: $2.30，当前市值: 0.19T。\n\n在富途查看：h
+DESCRIPTION:财务季度：Sep/2026 \n公司：百事可乐 \n预计每股收益: $2.30，当前市值: 0.18T。\n\n在富途查看：h
 	ttps://www.futunn.com/hk/stock/PEP-US \n在老虎查看：https://www.laohu8.com/stock
 	/PEP \nTradingView：https://www.tradingview.com/symbols/PEP/
 STATUS:CONFIRMED
@@ -159,11 +159,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:_Pq7iwZ5uFgIjoV2Xnvm6
+UID:FXWGszwF4Yvd0VMP22gl7
 SUMMARY:DAL(达美航空) 发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20261008T120000Z
-DESCRIPTION:财务季度：Sep/2026 \n公司：达美航空 \n预计每股收益: $2.03，当前市值: 52.50B。\n\n在富途查看：
+DESCRIPTION:财务季度：Sep/2026 \n公司：达美航空 \n预计每股收益: $2.03，当前市值: 51.90B。\n\n在富途查看：
 	https://www.futunn.com/hk/stock/DAL-US \n在老虎查看：https://www.laohu8.com/stoc
 	k/DAL \nTradingView：https://www.tradingview.com/symbols/DAL/
 STATUS:CONFIRMED
@@ -176,11 +176,11 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:MuV9mAhgNWTr0iaOPtTqV
+UID:EMpBk_H_IvkR4-fQ_fbDZ
 SUMMARY:LEVI(李维斯) 发布财报
-DTSTAMP:20260916T092251Z
+DTSTAMP:20260916T193704Z
 DTSTART:20261008T120000Z
-DESCRIPTION:财务季度：Aug/2026 \n公司：李维斯 \n预计每股收益: $0.36，当前市值: 7.79B。\n\n在富途查看：ht
+DESCRIPTION:财务季度：Aug/2026 \n公司：李维斯 \n预计每股收益: $0.36，当前市值: 7.63B。\n\n在富途查看：ht
 	tps://www.futunn.com/hk/stock/LEVI-US \n在老虎查看：https://www.laohu8.com/stock
 	/LEVI \nTradingView：https://www.tradingview.com/symbols/LEVI/
 STATUS:CONFIRMED
